@@ -69,7 +69,9 @@ public class Zadatak2 {
 		Scanner input = new Scanner(System.in);
 		System.out
 				.println("Wrong input, you have to enter an integer. Try again: ");
-		return input.nextInt();
+		int result = input.nextInt();
+	
+		return result;
 	}
 
 }

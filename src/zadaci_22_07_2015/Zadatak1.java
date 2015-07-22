@@ -31,8 +31,8 @@ public class Zadatak1 {
 	}
 
 	/**
-	 * Metoda koj prima tri argumenta (method overloading) ispuje određen broj
-	 * postih brojeva po liniji
+	 * Overloadovana metoda koja prima tri argumenta i ispisuje određen broj
+	 * prostih brojeva po liniji
 	 * */
 	public static void printPrimeNumbers(int startNum, int endNum, int perLine) {
 		

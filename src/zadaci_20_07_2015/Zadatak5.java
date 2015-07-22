@@ -32,5 +32,6 @@ public class Zadatak5 {
 		} while (num != 0);
 
 		System.out.println(maxValue + " " + numberOfMax);
+		input.close();
 	}
 }

@@ -15,7 +15,7 @@ public class Zadatak1 {
 	/** Metoda za testiranje rada max metode */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer> lista = null;
+		ArrayList<Integer> lista = new ArrayList<>();
 		lista.add(3);
 		lista.add(8);
 		lista.add(1);
