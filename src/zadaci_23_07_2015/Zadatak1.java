@@ -13,13 +13,15 @@ public class Zadatak1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		Scanner input = new Scanner(System.in);
 		int number = 0;
-		try{
-			
-		number = inputInteger();
-		}catch(InputMismatchException e){
-			 number = inputInteger();
+		try {
+
+			number = inputInteger();
+		} catch (InputMismatchException e) {
+			number = inputInteger();
 		}
 		// stampanje prostih faktora pomocu dvije while petlje
 		int counter;
@@ -30,17 +32,32 @@ public class Zadatak1 {
 				counter++;
 			}
 			System.out.print(counter + " ");
-			//dijelimo sa faktorom
+			// dijelimo sa faktorom
 			number /= counter;
 
 		}
 
 	}
-	
-	public static int inputInteger(){
+
+	public static int inputInteger() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter an integer to print out its faktors ");
 		return input.nextInt();
+	}
+
+	/** Metoda za printanje prosti faktora pomocu rekurzije*/
+	public static void recursiveProstiFaktori(int num) {
+		if (num == 1)
+			return;
+		else {
+			int counter = 2;
+			while (!(num % counter == 0)) {
+				counter++;
+			}
+			System.out.print(counter + " ");
+			recursiveProstiFaktori(num / counter);
+		}
+
 	}
 
 }
