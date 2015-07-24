@@ -9,11 +9,11 @@ import java.util.Scanner;
  * "Dobrodošli u Vankuver" program treba da ispiše: Najveći zajednički prefix za
  * dva stringa je "Dobrodošli u".
  * 
- * U slucaju da sa prefiksom misli na pojedinacna zajednicka slova
+ * U slucaju da sa prefiksom misli na zajednicke rijeci
  * 
  */
 
-public class Zadatak3 {
+public class Zadatak3_Words {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,12 +22,11 @@ public class Zadatak3 {
 		String first, second;
 		String result = "";
 
-		// korisnik unosi stringove
 		System.out.print("Enter first string: ");
 		first = input.nextLine();
+
 		System.out.print("Enter second string: ");
 		second = input.nextLine();
-		System.out.println("\n");
 
 		// ako su stringovi identicni printa slejdecu poruku
 		if (first.equals(second)) {
@@ -42,12 +41,15 @@ public class Zadatak3 {
 			second = temp;
 		}
 
+		String[] firstArray = first.split(" ");
+		String[] secondArray = second.split(" ");
+
 		// petlja ide do duzine kraceg stringa
 		for (int i = 0; i < second.length(); i++) {
-			if (first.charAt(i) != second.charAt(i)) {
+			if (!(firstArray[i].equals(secondArray[i]))) {
 				break;
 			}
-			result += first.charAt(i);
+			result += " " + firstArray[i];
 		}
 
 		// printanje rezultata
@@ -56,11 +58,11 @@ public class Zadatak3 {
 			System.out.println("The entered strings have no common prefix.");
 		} else {
 			// ako postoji prefix printa sljedecu poruku
-			System.out
-					.print("The common prefix for the entered strings is: ");
+			System.out.print("The common prefix for the entered strings is: ");
 			System.out.println(result);
 			input.close();
 		}
+
 	}
 
 }
