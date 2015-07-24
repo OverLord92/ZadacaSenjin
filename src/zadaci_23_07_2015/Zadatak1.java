@@ -45,7 +45,7 @@ public class Zadatak1 {
 		return input.nextInt();
 	}
 
-	/** Metoda za printanje prosti faktora pomocu rekurzije*/
+	/** Metoda za printanje prostih faktora pomocu rekurzije*/
 	public static void recursiveProstiFaktori(int num) {
 		if (num == 1)
 			return;
