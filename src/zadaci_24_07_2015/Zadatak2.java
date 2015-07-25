@@ -28,11 +28,12 @@ public class Zadatak2 {
 		String[] sign = { "srca", "pika", "djeteline", "kocke" };
 
 		// printanje rezultata
+		int cardNumber = (int)(Math.random()*52);
 		System.out.print("Karta koju ste izvukli je ");
-		System.out.print(value[(int) (Math.random() * 13)]);
+		System.out.print(value[cardNumber % 13]);
 		System.out.print(" u znaku ");
-		System.out.println(sign[(int) (Math.random() * 4)] + ".");
-
+		System.out.println(sign[cardNumber / 13] + ".");
+		
 		input.close();
 	}
 

@@ -11,31 +11,32 @@ public class Zadatak1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Vrijednosti pocetne i zavrsne godine kao i zeljeni broj ispisanih
-		//godina po liniji se mogu mijenjati u linija ispod
+		// Vrijednosti pocetne i zavrsne godine kao i zeljeni broj ispisanih
+		// godina po liniji se mogu mijenjati u linija ispod
 		int startYear = 101;
 		int endYear = 2100;
-		
+
 		int yearsPerLine = 10;
-		int leapYears = 0;
+		int leapYears = 1;
 
-		System.out.println("The leap years between the year "
-				+ startYear + " an the year " + endYear + " are: \n");
-		
-		/** Provjeravamo za sve brojeve od pocetne do zavrsne godine da li su prestupne */
+		System.out.println("The leap years between the year " + startYear
+				+ " an the year " + endYear + " are: \n");
+
+		/**
+		 * Provjeravamo za sve brojeve od pocetne do zavrsne godine da li su
+		 * prestupne
+		 */
 		for (int i = startYear; i <= endYear; i++) {
+			
+			// uslov za prestupnu goidnu
+			if ((i % 400 == 0 || (i % 4 == 0 && i % 100 != 0))) {
 
-			if ((i % 400 == 0 || (i % 4 == 0 && i % 100 != 0))) { //uslov za prestupnu goidnu
-				
-				if (leapYears % yearsPerLine == 0) { //broj ispisanih godina po liniji
-					
-					if(leapYears != 0){//bez ovog uslova program preskace
-									   //prvi red i pocinje ispisivati godine iz drugog reda
-						
-					System.out.println();
-					}
+				// broj ispisanih godina po liniji
+				if (leapYears % yearsPerLine == 0) {
+					System.out.println(i);
+				} else {
+					System.out.print(i + " ");
 				}
-				System.out.print(i + " ");
 				leapYears++;
 			}
 		}
