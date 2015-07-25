@@ -27,6 +27,7 @@ public class Zadatak3 {
 					.println("In order for the program to run properly, you need to enter an integer.");
 			System.out.println("Restart and try again.");
 		}
+		input.close();
 
 	}
 

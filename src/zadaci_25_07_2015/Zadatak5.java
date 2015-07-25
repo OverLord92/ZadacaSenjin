@@ -28,6 +28,7 @@ public class Zadatak5 {
 		
 		length = calculateLength(speed, acceleration);
 		System.out.printf("The required length is %.3f", length);
+		input.close();
 
 	}
 	

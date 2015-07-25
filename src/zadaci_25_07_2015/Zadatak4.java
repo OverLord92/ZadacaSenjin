@@ -30,6 +30,7 @@ public class Zadatak4 {
 		//štampanje rezultata
 		System.out.println("The resul string is : " + result + ".");
 		
+		input.close();
 
 	}
 

@@ -44,6 +44,7 @@ public class Zadatak1 {
 		futureAmount = (double) Math.floor(futureAmount * 100) / 100;
 
 		System.out.print("The future amount would be: " + futureAmount + ".");
+		input.close();
 	}
 
 }
