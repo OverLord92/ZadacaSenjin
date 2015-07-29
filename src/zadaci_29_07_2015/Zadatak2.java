@@ -12,7 +12,7 @@ public class Zadatak2 {
 
 		int counter = 1;
 
-		// broj prostih brojeva koje zelimo printati po liniji
+		// broj prostih brojeva koje zelimo printati po linijii
 		int perLine = 8;
 
 		// printamo 2 prije petlje
