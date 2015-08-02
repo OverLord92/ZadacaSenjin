@@ -1,5 +1,7 @@
 package PomocneKlase;
 
+/** Klasa koja radi sa razlomcima na koju sam naletio dok sam citao lekcije iz knjige */
+
 
 public class Rational extends Number implements Comparable<Rational> {
 	private long numerator = 0;
