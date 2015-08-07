@@ -38,7 +38,7 @@ public class Zadatak3 {
 		boolean isConFour = false;
 		
 		int currentNum = values[0];
-		int count = 0;
+		int count = 1;
 		for (int i = 1; i < values.length; i++) {
 			// ukoliko je broj isti povecavamo brojac za += 1
 			if (values[i] == currentNum) {
