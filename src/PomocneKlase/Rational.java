@@ -1,7 +1,9 @@
 package PomocneKlase;
 
-/** Klasa koja radi sa razlomcima na koju sam naletio dok sam citao lekcije iz knjige */
-
+/**
+ * Moja verzija klase koja radi sa razlomcima na koju sam naletio dok sam citao
+ * lekcije iz knjige
+ */
 
 public class Rational extends Number implements Comparable<Rational> {
 	private long numerator = 0;
@@ -11,7 +13,7 @@ public class Rational extends Number implements Comparable<Rational> {
 
 	}
 
-	 public Rational(long numerator, long denominator) {
+	public Rational(long numerator, long denominator) {
 		long gcd = gcd(numerator, denominator);
 		this.numerator = ((denominator > 0) ? 1 : -1) * numerator / gcd;
 		this.denominator = Math.abs(denominator) / gcd;
@@ -100,24 +102,24 @@ public class Rational extends Number implements Comparable<Rational> {
 				|| brojac % rational2.denominator != 0);
 		return brojac;
 	}
-	
+
 	@Override
-	public int intValue(){
-		return (int)doubleValue();
+	public int intValue() {
+		return (int) doubleValue();
 	}
-	
+
 	@Override
-	public long longValue(){
-		return (long)doubleValue();
+	public long longValue() {
+		return (long) doubleValue();
 	}
-	
+
 	@Override
-	public float floatValue(){
-		return (float)doubleValue();
+	public float floatValue() {
+		return (float) doubleValue();
 	}
-	
+
 	@Override
-	public double doubleValue(){
+	public double doubleValue() {
 		return numerator * 1.0 / denominator;
 	}
 
