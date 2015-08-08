@@ -18,7 +18,7 @@ public class Zadatak5 {
 		double[][] c = addMatrix(a, b);
 
 		// printanje sabiranja matrica
-		printSumMatices(a, b, c);
+		printMaticesOperation(a, b, c, '+');
 
 	}
 
@@ -43,8 +43,8 @@ public class Zadatak5 {
 		return c;
 	}
 
-	/** Metoda za vizualizaciju sabiranja dvaju matrica */
-	public static void printSumMatices(double[][] a, double[][] b, double[][] c) {
+	/** Metoda za vizualizaciju operacije dvaju matrica */
+	public static void printMaticesOperation(double[][] a, double[][] b, double[][] c, char operation) {
 		for (int i = 0; i < a.length; i++) {
 			// printanje prve matrice
 			for (int j = 0; j < a[0].length; j++) {
@@ -53,7 +53,7 @@ public class Zadatak5 {
 			}
 
 			if (i == a.length / 2)
-				System.out.print("   +   ");
+				System.out.print("   " + operation + "   ");
 			else
 				System.out.print("       ");
 
