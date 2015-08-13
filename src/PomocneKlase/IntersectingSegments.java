@@ -10,6 +10,9 @@ package PomocneKlase;
  * (y1 - y2)x - (x1 - x2)y = (y1 - y2)x1 - (x1 - x2)y1
  * 
  *  (y3 - y4)x - (x3 - x4)y = (y3 - y4)x3 - (x3 - x4)y3
+ *  
+ *  u matricu a ubacujemo lijeve strane jednakosti
+ *  a u matricu b desne strane jednakosti
  */
 
 
@@ -29,7 +32,7 @@ public class IntersectingSegments {
 		this.p4 = p4;
 	}
 
-	/** Metoda koja vraca koordinate tacke presjeka pravih */
+	/** Metoda vraca true ukoliko se DUZI sijeku */
 	public boolean areSegmentsIntersecting() {
 
 		// definisanje matrica koristeci se formulom iz opisa zadatka
@@ -57,8 +60,8 @@ public class IntersectingSegments {
 	/** Metoda koja racuna rjesenje sistema jednacina */
 	public boolean isSolvable() {
 
-		// ukoliko jednacina nije rjesiva metoda vraca null
-		// sto znaci da su prave paralelne
+		// ukoliko jednacina nije rjesiva metoda vraca false
+		// sto znaci da su prave paralelne tj da se ne sjeku
 		if (a[0][0] * a[1][1] - a[0][1] * a[1][0] == 0)
 			return false;
 
@@ -66,12 +69,15 @@ public class IntersectingSegments {
 		// varijabli dividor
 		double dividor = (a[0][0] * a[1][1] - a[0][1] * a[1][0]);
 
-		// racunanje x-a e * d - b * f / a * d - b * c
+		// racunanje x = a e * d - b * f / a * d - b * c
 		double x = (b[0] * a[1][1] - a[0][1] * b[1]) / dividor;
 
-		// racunanje y-a a * f - e * c / a * d - b * c
+		// racunanje y = a a * f - e * c / a * d - b * c
 		double y = (a[0][0] * b[1] - b[0] * a[1][0]) / dividor;
 		
+		
+		// provjeravamo da li se tacka presjeka nalazi na prvoj duzi
+		// ako se prave sijeku izvan duzi znaci da se duzi ne sjeku
 		boolean greaterX = x > p1.x
 				&& x > p2.x;
 				
@@ -85,6 +91,7 @@ public class IntersectingSegments {
 				&& y < p2.y;
 				
 	
+		// ako je to slucaj metoda vraca false
 		if (greaterX || greaterY || smallerX || smallerY) {
 			return false;
 		} else

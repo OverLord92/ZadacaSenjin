@@ -97,6 +97,10 @@ class MyRectangle2D {
 	 * pravougaonika
 	 */
 	public boolean contains(MyRectangle2D rectangle) {
+		
+		// metoda provjerava da li se sve tacke rectangle-a nalaze unutar
+		// this trougla, ukoliko je to slucaj this sadrzi 
+		// rectangle
 		if (!this.contains(rectangle.x - rectangle.width / 2, rectangle.y
 				- rectangle.height / 2))
 			return false;
