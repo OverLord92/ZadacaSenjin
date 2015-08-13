@@ -46,7 +46,7 @@ public class Zadatak4 {
 		
 		
 		// duzine stranica smjestamo u listu kako bi ih sortirali
-		List<Double> sides = Arrays.asList(side1, side3, side3);
+		List<Double> sides = Arrays.asList(side1, side2, side3);
 		Collections.sort(sides);
 		
 		// provjeravamo da li je najveca stranica veca od zbira manje dvije
