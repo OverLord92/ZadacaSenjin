@@ -28,7 +28,7 @@ public class Zadatak2 {
 
 		// postavljamo pitanje question puta
 		for (int i = 0; i < questions; i++) {
-			// generišemo dva nasumicna broja od 1 do 9
+			// generisemo dva nasumicna broja od 1 do 9
 			num1 = (int) (1 + Math.random() * 9);
 			num2 = (int) (1 + Math.random() * 9);
 
@@ -63,7 +63,7 @@ public class Zadatak2 {
 
 	/**
 	 * Metoda koja se poziva ukoliko dođe do inputmismatchException-a, koja
-	 * omogućava korisniku da ponovo unese vrijednost
+	 * omogucava korisniku da ponovo unese vrijednost
 	 */
 	public static int tryAgain() {
 		Scanner input = new Scanner(System.in);

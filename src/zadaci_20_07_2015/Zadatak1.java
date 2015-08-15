@@ -25,7 +25,7 @@ public class Zadatak1 {
 
 	}
 	
-	/** Metoda koja vraća najveći integer u ArrayListi */
+	/** Metoda koja vraca najveci integer u ArrayListi */
 	public static Integer max(ArrayList<Integer> list) {
 		// Ukoliko je lista prazna ili jednaka null metoda vraća null
 		if (list == null || list.size() == 0) {

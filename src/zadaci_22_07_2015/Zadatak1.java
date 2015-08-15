@@ -31,7 +31,7 @@ public class Zadatak1 {
 	}
 
 	/**
-	 * Overloadovana metoda koja prima tri argumenta i ispisuje određen broj
+	 * Overloadovana metoda koja prima tri argumenta i ispisuje odredjen broj
 	 * prostih brojeva po liniji
 	 * */
 	public static void printPrimeNumbers(int startNum, int endNum, int perLine) {
@@ -62,7 +62,7 @@ public class Zadatak1 {
 		else if (number == 2)
 			return true;
 		else
-			for (int i = 2; i < number; i++) {
+			for (int i = 2; i <= number / 2; i++) {
 				if (number % i == 0) {
 					return false;
 				}
