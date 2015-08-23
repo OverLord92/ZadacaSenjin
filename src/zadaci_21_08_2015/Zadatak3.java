@@ -10,9 +10,6 @@ import java.util.Scanner;
  * specified string from a text file. For example, invoking java Exercise12_11
  * John filename removes the string John from the specified file. Your program
  * should get the arguments from the command line.
- * 
- * Program koristi fajl textZadatak3.txt koji se nalazi u paketu zadaci_21_08_2015
- * ali se moze modifikovati tako da korisnik unosi naziv datoke
  */
 
 public class Zadatak3 {
@@ -20,12 +17,13 @@ public class Zadatak3 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// fajl s kojim manipulisemo 
-		File file = new File("src/zadaci_21_08_2015/textZadatak3.txt");
 		
-		// promptamo korisnika da unese rijec kojiu teli izbrisati iz fajla
-		System.out.print("Unesite string koji zelite izbrisati iz datoteke textZadatak3.txt: ");
-		String toBeRemoved = input.next();
+		// string koji zelimo uklonuti
+		String toBeRemoved = args[0].trim();
+		
+		// fajl s kojim manipulisemo 
+		String fileName = args[1].trim();
+		File file = new File(fileName);
 
 		// StringBuilder u koji smjestamo sadrzaj fajla bez izbacenih rijeci
 		StringBuilder sb = new StringBuilder();

@@ -29,7 +29,7 @@ public class Zadatak5 {
 			
 			// sabiranje bodova
 			while (inputFile.hasNext()) {
-				sum += inputFile.nextInt();
+				sum += inputFile.nextDouble();
 				counter++;
 			}
 			
