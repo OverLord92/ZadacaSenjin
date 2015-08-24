@@ -1,1000 +1,1000 @@
-    FirstName1     LastName1       full 118481.35
-    FirstName2     LastName2       full  86598.92
-    FirstName3     LastName3  associate  68699.12
-    FirstName4     LastName4       full 105838.09
-    FirstName5     LastName5  assistant  65006.31
-    FirstName6     LastName6  assistant  72800.93
-    FirstName7     LastName7  assistant  50207.62
-    FirstName8     LastName8  assistant  68027.66
-    FirstName9     LastName9  assistant  72247.63
-   FirstName10    LastName10       full  99450.32
-   FirstName11    LastName11       full  78433.97
-   FirstName12    LastName12  assistant  77158.22
-   FirstName13    LastName13  associate  69676.12
-   FirstName14    LastName14  associate  98797.95
-   FirstName15    LastName15  assistant  54588.57
-   FirstName16    LastName16       full 113699.19
-   FirstName17    LastName17  assistant  55015.29
-   FirstName18    LastName18       full  95424.51
-   FirstName19    LastName19       full 109898.01
-   FirstName20    LastName20  associate 102294.54
-   FirstName21    LastName21       full 119410.21
-   FirstName22    LastName22  associate  75484.93
-   FirstName23    LastName23       full 109437.69
-   FirstName24    LastName24  assistant  68370.09
-   FirstName25    LastName25  associate  87700.62
-   FirstName26    LastName26       full 127132.01
-   FirstName27    LastName27       full 121329.26
-   FirstName28    LastName28       full 102134.98
-   FirstName29    LastName29       full  95972.58
-   FirstName30    LastName30  associate  61422.24
-   FirstName31    LastName31  assistant  55496.83
-   FirstName32    LastName32       full  96775.65
-   FirstName33    LastName33       full 107309.45
-   FirstName34    LastName34  associate  68077.15
-   FirstName35    LastName35       full 101218.99
-   FirstName36    LastName36  assistant  79505.15
-   FirstName37    LastName37       full  83302.76
-   FirstName38    LastName38  associate  60612.06
-   FirstName39    LastName39       full  75964.74
-   FirstName40    LastName40       full  80873.74
-   FirstName41    LastName41       full 125906.50
-   FirstName42    LastName42  associate  98805.88
-   FirstName43    LastName43       full 118860.49
-   FirstName44    LastName44  associate  86598.14
-   FirstName45    LastName45  associate  69600.07
-   FirstName46    LastName46  assistant  73239.20
-   FirstName47    LastName47  associate  88557.43
-   FirstName48    LastName48  assistant  62710.28
-   FirstName49    LastName49  assistant  60098.22
-   FirstName50    LastName50       full  88889.34
-   FirstName51    LastName51       full  83383.28
-   FirstName52    LastName52  associate  74491.91
-   FirstName53    LastName53  associate  93817.01
-   FirstName54    LastName54  associate  95457.24
-   FirstName55    LastName55  assistant  67559.30
-   FirstName56    LastName56       full  93979.82
-   FirstName57    LastName57       full 113473.03
-   FirstName58    LastName58       full  94020.95
-   FirstName59    LastName59  assistant  52532.47
-   FirstName60    LastName60  associate  85004.49
-   FirstName61    LastName61  assistant  57257.68
-   FirstName62    LastName62       full 100378.80
-   FirstName63    LastName63       full 123906.01
-   FirstName64    LastName64  assistant  63009.69
-   FirstName65    LastName65       full  95235.34
-   FirstName66    LastName66  assistant  76333.15
-   FirstName67    LastName67  associate  81332.70
-   FirstName68    LastName68  assistant  63641.52
-   FirstName69    LastName69       full 128669.60
-   FirstName70    LastName70       full 115004.71
-   FirstName71    LastName71  associate  81345.98
-   FirstName72    LastName72       full  81115.12
-   FirstName73    LastName73  associate  79866.81
-   FirstName74    LastName74       full  85185.29
-   FirstName75    LastName75       full 123751.19
-   FirstName76    LastName76  assistant  72581.79
-   FirstName77    LastName77  associate  85526.27
-   FirstName78    LastName78  assistant  79302.20
-   FirstName79    LastName79  associate  61139.12
-   FirstName80    LastName80  associate  85225.21
-   FirstName81    LastName81       full  82460.52
-   FirstName82    LastName82  assistant  72326.06
-   FirstName83    LastName83  associate  90841.04
-   FirstName84    LastName84  associate  77943.78
-   FirstName85    LastName85       full 115351.95
-   FirstName86    LastName86       full 108160.88
-   FirstName87    LastName87  assistant  61546.63
-   FirstName88    LastName88  assistant  60263.59
-   FirstName89    LastName89       full 112226.49
-   FirstName90    LastName90  assistant  64105.00
-   FirstName91    LastName91  associate  73867.36
-   FirstName92    LastName92  associate 108160.14
-   FirstName93    LastName93  assistant  68325.38
-   FirstName94    LastName94  assistant  79944.19
-   FirstName95    LastName95  associate 102348.49
-   FirstName96    LastName96       full  97089.05
-   FirstName97    LastName97  assistant  70343.29
-   FirstName98    LastName98       full  85637.09
-   FirstName99    LastName99  assistant  52460.57
-  FirstName100   LastName100  associate  67066.78
-  FirstName101   LastName101  assistant  68654.66
-  FirstName102   LastName102  associate  62730.81
-  FirstName103   LastName103       full  94169.35
-  FirstName104   LastName104  assistant  50236.33
-  FirstName105   LastName105       full  77206.49
-  FirstName106   LastName106  assistant  74321.51
-  FirstName107   LastName107  assistant  60089.94
-  FirstName108   LastName108  assistant  74467.40
-  FirstName109   LastName109  assistant  59300.67
-  FirstName110   LastName110       full 107532.76
-  FirstName111   LastName111  assistant  54598.02
-  FirstName112   LastName112  assistant  52461.14
-  FirstName113   LastName113  associate 107533.01
-  FirstName114   LastName114  associate  90635.63
-  FirstName115   LastName115  associate 108113.84
-  FirstName116   LastName116       full 103423.57
-  FirstName117   LastName117  assistant  63358.00
-  FirstName118   LastName118       full  86416.02
-  FirstName119   LastName119  associate 100286.90
-  FirstName120   LastName120  assistant  57238.14
-  FirstName121   LastName121  assistant  73745.93
-  FirstName122   LastName122       full  90777.40
-  FirstName123   LastName123  assistant  65350.39
-  FirstName124   LastName124  associate 107351.60
-  FirstName125   LastName125  assistant  58994.12
-  FirstName126   LastName126       full  78279.90
-  FirstName127   LastName127       full 120450.33
-  FirstName128   LastName128  associate  82466.05
-  FirstName129   LastName129  associate  80434.98
-  FirstName130   LastName130  associate  64818.70
-  FirstName131   LastName131  assistant  55034.43
-  FirstName132   LastName132  assistant  60289.86
-  FirstName133   LastName133  assistant  66128.75
-  FirstName134   LastName134       full  78679.14
-  FirstName135   LastName135  associate  92234.97
-  FirstName136   LastName136  assistant  71534.82
-  FirstName137   LastName137       full  88517.05
-  FirstName138   LastName138       full 115416.18
-  FirstName139   LastName139  assistant  57059.12
-  FirstName140   LastName140  assistant  54206.90
-  FirstName141   LastName141  associate  70852.84
-  FirstName142   LastName142  associate  62044.43
-  FirstName143   LastName143  assistant  58127.56
-  FirstName144   LastName144  associate  77921.61
-  FirstName145   LastName145  associate 102034.38
-  FirstName146   LastName146       full  94616.09
-  FirstName147   LastName147  associate  90915.01
-  FirstName148   LastName148       full  99097.28
-  FirstName149   LastName149  associate  80331.89
-  FirstName150   LastName150       full  88274.59
-  FirstName151   LastName151       full  86313.06
-  FirstName152   LastName152       full  90711.71
-  FirstName153   LastName153       full  85219.56
-  FirstName154   LastName154  associate  74161.78
-  FirstName155   LastName155  associate  99347.21
-  FirstName156   LastName156       full 117114.82
-  FirstName157   LastName157  assistant  77428.21
-  FirstName158   LastName158       full 122180.02
-  FirstName159   LastName159  assistant  52647.82
-  FirstName160   LastName160       full 122884.24
-  FirstName161   LastName161  assistant  63534.49
-  FirstName162   LastName162       full 123674.59
-  FirstName163   LastName163       full 115266.04
-  FirstName164   LastName164       full 110651.63
-  FirstName165   LastName165  assistant  68890.28
-  FirstName166   LastName166  assistant  77508.89
-  FirstName167   LastName167       full 107055.33
-  FirstName168   LastName168       full 121496.65
-  FirstName169   LastName169  associate  88548.92
-  FirstName170   LastName170       full  82651.30
-  FirstName171   LastName171  associate  80421.31
-  FirstName172   LastName172  assistant  64229.77
-  FirstName173   LastName173  assistant  79402.41
-  FirstName174   LastName174       full  81369.13
-  FirstName175   LastName175       full  75176.29
-  FirstName176   LastName176       full 116707.29
-  FirstName177   LastName177       full  85652.58
-  FirstName178   LastName178       full  94971.20
-  FirstName179   LastName179       full  84107.09
-  FirstName180   LastName180  assistant  54933.32
-  FirstName181   LastName181  associate 109962.38
-  FirstName182   LastName182  associate  64030.83
-  FirstName183   LastName183  assistant  55273.87
-  FirstName184   LastName184  associate  83998.41
-  FirstName185   LastName185  assistant  64847.20
-  FirstName186   LastName186  assistant  68724.62
-  FirstName187   LastName187       full 111735.54
-  FirstName188   LastName188  assistant  54184.76
-  FirstName189   LastName189  associate  85487.22
-  FirstName190   LastName190  assistant  66550.27
-  FirstName191   LastName191  assistant  51223.46
-  FirstName192   LastName192  associate  72999.09
-  FirstName193   LastName193       full  94468.23
-  FirstName194   LastName194       full  92829.64
-  FirstName195   LastName195  assistant  74068.52
-  FirstName196   LastName196       full  79984.55
-  FirstName197   LastName197       full 125517.85
-  FirstName198   LastName198  associate 109687.20
-  FirstName199   LastName199       full 102041.05
-  FirstName200   LastName200  assistant  75037.96
-  FirstName201   LastName201  associate  79678.37
-  FirstName202   LastName202  assistant  63823.31
-  FirstName203   LastName203  assistant  52225.80
-  FirstName204   LastName204  assistant  51491.23
-  FirstName205   LastName205  associate  66284.11
-  FirstName206   LastName206       full  82280.10
-  FirstName207   LastName207  associate 107649.95
-  FirstName208   LastName208  associate  64251.78
-  FirstName209   LastName209       full  96052.40
-  FirstName210   LastName210       full  78514.54
-  FirstName211   LastName211       full 129573.97
-  FirstName212   LastName212  assistant  57815.91
-  FirstName213   LastName213  assistant  51402.76
-  FirstName214   LastName214  associate 105796.50
-  FirstName215   LastName215  assistant  55896.80
-  FirstName216   LastName216       full 116064.07
-  FirstName217   LastName217  associate  85163.77
-  FirstName218   LastName218       full  91955.67
-  FirstName219   LastName219  assistant  78226.35
-  FirstName220   LastName220       full  94297.69
-  FirstName221   LastName221  associate  72398.37
-  FirstName222   LastName222  assistant  62105.67
-  FirstName223   LastName223  associate 104780.02
-  FirstName224   LastName224  assistant  70061.15
-  FirstName225   LastName225  associate 108947.81
-  FirstName226   LastName226  assistant  74051.12
-  FirstName227   LastName227       full  77270.11
-  FirstName228   LastName228  associate  75263.47
-  FirstName229   LastName229       full  85723.47
-  FirstName230   LastName230  associate  63927.48
-  FirstName231   LastName231  associate  80876.53
-  FirstName232   LastName232  assistant  53761.25
-  FirstName233   LastName233  associate  88434.79
-  FirstName234   LastName234  associate  87449.46
-  FirstName235   LastName235       full 102539.68
-  FirstName236   LastName236  associate  96932.93
-  FirstName237   LastName237       full 108816.12
-  FirstName238   LastName238  associate  64407.68
-  FirstName239   LastName239  assistant  60644.72
-  FirstName240   LastName240  associate  93846.02
-  FirstName241   LastName241       full  98237.09
-  FirstName242   LastName242       full  80050.53
-  FirstName243   LastName243       full 127256.75
-  FirstName244   LastName244  associate 108534.92
-  FirstName245   LastName245  assistant  64138.49
-  FirstName246   LastName246  assistant  77252.03
-  FirstName247   LastName247  assistant  58826.35
-  FirstName248   LastName248  assistant  52463.08
-  FirstName249   LastName249       full 119046.87
-  FirstName250   LastName250  associate  76217.32
-  FirstName251   LastName251  assistant  58095.31
-  FirstName252   LastName252  associate  80047.31
-  FirstName253   LastName253       full  77926.35
-  FirstName254   LastName254  assistant  78057.71
-  FirstName255   LastName255       full  92828.80
-  FirstName256   LastName256  assistant  72835.90
-  FirstName257   LastName257       full  83660.30
-  FirstName258   LastName258       full 101646.09
-  FirstName259   LastName259  associate  80191.44
-  FirstName260   LastName260  associate  94239.40
-  FirstName261   LastName261  associate  93825.21
-  FirstName262   LastName262       full 102573.62
-  FirstName263   LastName263       full 117934.54
-  FirstName264   LastName264       full  92039.86
-  FirstName265   LastName265  assistant  52554.02
-  FirstName266   LastName266  associate 101054.44
-  FirstName267   LastName267  associate  93099.97
-  FirstName268   LastName268       full  86558.41
-  FirstName269   LastName269       full 102453.95
-  FirstName270   LastName270       full 120014.82
-  FirstName271   LastName271  assistant  71933.22
-  FirstName272   LastName272  assistant  66905.48
-  FirstName273   LastName273  associate  91252.95
-  FirstName274   LastName274  assistant  63108.19
-  FirstName275   LastName275  assistant  50328.04
-  FirstName276   LastName276  assistant  61250.28
-  FirstName277   LastName277  associate 107481.64
-  FirstName278   LastName278       full  94024.76
-  FirstName279   LastName279  assistant  70908.29
-  FirstName280   LastName280       full 114225.19
-  FirstName281   LastName281       full  99161.73
-  FirstName282   LastName282  associate 100367.93
-  FirstName283   LastName283  assistant  75584.98
-  FirstName284   LastName284       full  84110.39
-  FirstName285   LastName285       full  89766.79
-  FirstName286   LastName286       full  79653.61
-  FirstName287   LastName287       full  81266.34
-  FirstName288   LastName288       full 128416.53
-  FirstName289   LastName289  associate  77330.89
-  FirstName290   LastName290  associate  83737.27
-  FirstName291   LastName291  associate  99637.60
-  FirstName292   LastName292       full 104464.42
-  FirstName293   LastName293       full 111484.69
-  FirstName294   LastName294  associate  74848.21
-  FirstName295   LastName295  associate  61560.80
-  FirstName296   LastName296  assistant  58652.73
-  FirstName297   LastName297  associate  96075.38
-  FirstName298   LastName298  assistant  62565.20
-  FirstName299   LastName299       full 124177.51
-  FirstName300   LastName300  assistant  52583.21
-  FirstName301   LastName301       full 106743.56
-  FirstName302   LastName302  associate  67624.97
-  FirstName303   LastName303  associate  87421.47
-  FirstName304   LastName304  assistant  68655.28
-  FirstName305   LastName305       full  89112.98
-  FirstName306   LastName306  assistant  68083.15
-  FirstName307   LastName307  assistant  77678.58
-  FirstName308   LastName308  associate  87276.49
-  FirstName309   LastName309       full 106326.30
-  FirstName310   LastName310       full 118963.47
-  FirstName311   LastName311  associate  84558.04
-  FirstName312   LastName312  associate  72658.49
-  FirstName313   LastName313  assistant  67648.37
-  FirstName314   LastName314  assistant  55846.78
-  FirstName315   LastName315  associate  63905.47
-  FirstName316   LastName316  assistant  66558.21
-  FirstName317   LastName317  associate  75592.38
-  FirstName318   LastName318  associate  78069.95
-  FirstName319   LastName319       full 120356.89
-  FirstName320   LastName320       full 111195.21
-  FirstName321   LastName321  associate  74280.58
-  FirstName322   LastName322  associate 108319.52
-  FirstName323   LastName323  assistant  71454.79
-  FirstName324   LastName324  associate  71735.87
-  FirstName325   LastName325  associate  69743.17
-  FirstName326   LastName326  associate  78071.27
-  FirstName327   LastName327  associate  75295.15
-  FirstName328   LastName328       full  98450.09
-  FirstName329   LastName329  assistant  71076.47
-  FirstName330   LastName330       full  95057.60
-  FirstName331   LastName331  assistant  66548.43
-  FirstName332   LastName332  associate  64881.47
-  FirstName333   LastName333       full  77775.02
-  FirstName334   LastName334       full  78836.09
-  FirstName335   LastName335       full 123057.51
-  FirstName336   LastName336  associate  96632.21
-  FirstName337   LastName337  associate  69670.59
-  FirstName338   LastName338       full 116942.86
-  FirstName339   LastName339       full 122604.68
-  FirstName340   LastName340  assistant  71077.39
-  FirstName341   LastName341       full 101732.93
-  FirstName342   LastName342  associate  73942.95
-  FirstName343   LastName343  associate  73886.90
-  FirstName344   LastName344  associate 102907.24
-  FirstName345   LastName345  associate  69582.76
-  FirstName346   LastName346  assistant  61499.63
-  FirstName347   LastName347  associate  69021.75
-  FirstName348   LastName348       full 110977.38
-  FirstName349   LastName349  assistant  59977.65
-  FirstName350   LastName350       full  75207.18
-  FirstName351   LastName351  associate  82232.51
-  FirstName352   LastName352  assistant  57891.52
-  FirstName353   LastName353       full 110855.44
-  FirstName354   LastName354       full  97063.03
-  FirstName355   LastName355  associate 106936.28
-  FirstName356   LastName356  associate  79241.56
-  FirstName357   LastName357  assistant  71170.26
-  FirstName358   LastName358  associate  90405.78
-  FirstName359   LastName359       full  79613.86
-  FirstName360   LastName360  assistant  71291.42
-  FirstName361   LastName361       full  94544.05
-  FirstName362   LastName362  assistant  71539.59
-  FirstName363   LastName363       full 111494.45
-  FirstName364   LastName364  associate  72063.50
-  FirstName365   LastName365  associate  69004.29
-  FirstName366   LastName366  associate 102805.04
-  FirstName367   LastName367  associate  61538.67
-  FirstName368   LastName368       full 126515.05
-  FirstName369   LastName369       full 106801.63
-  FirstName370   LastName370  assistant  77470.37
-  FirstName371   LastName371  associate  65437.15
-  FirstName372   LastName372       full  95404.10
-  FirstName373   LastName373       full 106762.30
-  FirstName374   LastName374  associate  79507.97
-  FirstName375   LastName375  assistant  74847.88
-  FirstName376   LastName376       full  96077.89
-  FirstName377   LastName377       full 109308.60
-  FirstName378   LastName378  assistant  76522.02
-  FirstName379   LastName379  assistant  76919.50
-  FirstName380   LastName380       full 125054.99
-  FirstName381   LastName381  assistant  76025.63
-  FirstName382   LastName382  assistant  54033.31
-  FirstName383   LastName383       full  77581.01
-  FirstName384   LastName384  associate  83268.72
-  FirstName385   LastName385  associate  95877.67
-  FirstName386   LastName386       full 109367.45
-  FirstName387   LastName387  associate  67396.66
-  FirstName388   LastName388  assistant  79151.87
-  FirstName389   LastName389  assistant  70460.70
-  FirstName390   LastName390       full  81824.04
-  FirstName391   LastName391  assistant  75296.35
-  FirstName392   LastName392       full 124593.81
-  FirstName393   LastName393  associate  98279.66
-  FirstName394   LastName394  associate  96564.56
-  FirstName395   LastName395  assistant  67696.25
-  FirstName396   LastName396  associate 106763.56
-  FirstName397   LastName397       full 126849.08
-  FirstName398   LastName398  associate  73008.72
-  FirstName399   LastName399  assistant  57679.08
-  FirstName400   LastName400       full 107491.90
-  FirstName401   LastName401  assistant  64291.50
-  FirstName402   LastName402  assistant  51305.54
-  FirstName403   LastName403       full 111641.61
-  FirstName404   LastName404       full 104497.67
-  FirstName405   LastName405  associate  65100.45
-  FirstName406   LastName406       full 101988.06
-  FirstName407   LastName407  assistant  72238.63
-  FirstName408   LastName408       full 104636.67
-  FirstName409   LastName409       full  94018.04
-  FirstName410   LastName410  associate 108992.83
-  FirstName411   LastName411  assistant  53757.76
-  FirstName412   LastName412  associate  72874.56
-  FirstName413   LastName413       full 102347.16
-  FirstName414   LastName414  associate 105849.53
-  FirstName415   LastName415  assistant  63367.59
-  FirstName416   LastName416  associate  76935.58
-  FirstName417   LastName417  associate  60266.64
-  FirstName418   LastName418  assistant  51312.65
-  FirstName419   LastName419  assistant  68009.73
-  FirstName420   LastName420  assistant  65598.82
-  FirstName421   LastName421  assistant  59538.85
-  FirstName422   LastName422  associate  76311.64
-  FirstName423   LastName423       full 114435.11
-  FirstName424   LastName424  associate  94949.35
-  FirstName425   LastName425       full  98861.18
-  FirstName426   LastName426  assistant  50197.03
-  FirstName427   LastName427  associate  93886.42
-  FirstName428   LastName428  associate  68790.84
-  FirstName429   LastName429       full 112778.31
-  FirstName430   LastName430  associate  92476.97
-  FirstName431   LastName431  assistant  60651.58
-  FirstName432   LastName432       full 103843.71
-  FirstName433   LastName433  associate  86611.52
-  FirstName434   LastName434  assistant  57983.14
-  FirstName435   LastName435  associate 107655.48
-  FirstName436   LastName436       full 119064.66
-  FirstName437   LastName437  assistant  60609.54
-  FirstName438   LastName438  assistant  75377.94
-  FirstName439   LastName439  associate  64929.11
-  FirstName440   LastName440  assistant  51407.97
-  FirstName441   LastName441  assistant  66850.87
-  FirstName442   LastName442  assistant  76428.96
-  FirstName443   LastName443  assistant  67280.35
-  FirstName444   LastName444  associate  74504.22
-  FirstName445   LastName445  associate  85113.74
-  FirstName446   LastName446  associate  95602.60
-  FirstName447   LastName447  assistant  75559.65
-  FirstName448   LastName448       full 102901.80
-  FirstName449   LastName449  assistant  78353.34
-  FirstName450   LastName450  associate  99032.56
-  FirstName451   LastName451  assistant  73482.52
-  FirstName452   LastName452       full  88706.32
-  FirstName453   LastName453  assistant  55148.58
-  FirstName454   LastName454  associate  65883.61
-  FirstName455   LastName455  associate  67486.50
-  FirstName456   LastName456  assistant  76635.94
-  FirstName457   LastName457       full 126245.78
-  FirstName458   LastName458  associate  92573.06
-  FirstName459   LastName459  assistant  77526.91
-  FirstName460   LastName460       full 113130.55
-  FirstName461   LastName461  assistant  73678.29
-  FirstName462   LastName462  associate  68348.75
-  FirstName463   LastName463  assistant  60773.50
-  FirstName464   LastName464  assistant  55873.43
-  FirstName465   LastName465  assistant  68756.72
-  FirstName466   LastName466       full 129899.18
-  FirstName467   LastName467  assistant  63261.13
-  FirstName468   LastName468  associate  87069.24
-  FirstName469   LastName469  assistant  59560.51
-  FirstName470   LastName470  assistant  73568.68
-  FirstName471   LastName471       full  81675.88
-  FirstName472   LastName472  assistant  73916.51
-  FirstName473   LastName473  associate 103741.76
-  FirstName474   LastName474  associate 104073.53
-  FirstName475   LastName475  assistant  62984.68
-  FirstName476   LastName476  assistant  62418.08
-  FirstName477   LastName477       full 103574.23
-  FirstName478   LastName478  assistant  57008.13
-  FirstName479   LastName479       full 104206.25
-  FirstName480   LastName480  assistant  59067.42
-  FirstName481   LastName481       full 104152.11
-  FirstName482   LastName482       full 120718.36
-  FirstName483   LastName483  assistant  52028.68
-  FirstName484   LastName484       full  87678.77
-  FirstName485   LastName485       full 120179.74
-  FirstName486   LastName486  assistant  51315.95
-  FirstName487   LastName487  associate  87672.78
-  FirstName488   LastName488  associate  85027.83
-  FirstName489   LastName489  associate  87915.54
-  FirstName490   LastName490  assistant  63066.32
-  FirstName491   LastName491  assistant  67984.09
-  FirstName492   LastName492  assistant  53254.60
-  FirstName493   LastName493       full  92103.80
-  FirstName494   LastName494       full 123769.45
-  FirstName495   LastName495  associate  69045.46
-  FirstName496   LastName496  assistant  75437.63
-  FirstName497   LastName497  assistant  65787.62
-  FirstName498   LastName498  assistant  53162.69
-  FirstName499   LastName499       full  92560.36
-  FirstName500   LastName500       full  78426.01
-  FirstName501   LastName501  assistant  59954.47
-  FirstName502   LastName502       full 122301.68
-  FirstName503   LastName503  associate 101331.49
-  FirstName504   LastName504  associate  60173.46
-  FirstName505   LastName505  assistant  78319.54
-  FirstName506   LastName506  associate  85775.07
-  FirstName507   LastName507       full  75367.71
-  FirstName508   LastName508       full  75202.31
-  FirstName509   LastName509  assistant  55950.57
-  FirstName510   LastName510  associate  95260.31
-  FirstName511   LastName511  assistant  63720.70
-  FirstName512   LastName512  associate 105886.36
-  FirstName513   LastName513  assistant  79184.21
-  FirstName514   LastName514  associate  71016.80
-  FirstName515   LastName515  associate  78457.98
-  FirstName516   LastName516  associate  87130.06
-  FirstName517   LastName517       full 103736.50
-  FirstName518   LastName518       full  99691.18
-  FirstName519   LastName519  associate 108204.00
-  FirstName520   LastName520       full 128429.25
-  FirstName521   LastName521       full 129789.07
-  FirstName522   LastName522  assistant  78396.92
-  FirstName523   LastName523  associate 108470.40
-  FirstName524   LastName524  associate  64446.92
-  FirstName525   LastName525  assistant  69610.85
-  FirstName526   LastName526       full 128389.08
-  FirstName527   LastName527  associate  73553.99
-  FirstName528   LastName528  assistant  69955.51
-  FirstName529   LastName529  associate  87693.93
-  FirstName530   LastName530       full  78345.59
-  FirstName531   LastName531       full  82757.88
-  FirstName532   LastName532  assistant  72649.74
-  FirstName533   LastName533  assistant  71973.71
-  FirstName534   LastName534  assistant  79885.72
-  FirstName535   LastName535  associate  94162.35
-  FirstName536   LastName536  assistant  60792.24
-  FirstName537   LastName537       full  82681.21
-  FirstName538   LastName538  assistant  71404.63
-  FirstName539   LastName539  assistant  61777.72
-  FirstName540   LastName540  assistant  66762.83
-  FirstName541   LastName541  associate 102843.05
-  FirstName542   LastName542  associate  60812.49
-  FirstName543   LastName543       full 128442.70
-  FirstName544   LastName544  assistant  67018.48
-  FirstName545   LastName545  associate  78095.15
-  FirstName546   LastName546  assistant  54742.99
-  FirstName547   LastName547       full 118980.21
-  FirstName548   LastName548  associate  81400.37
-  FirstName549   LastName549       full 122441.24
-  FirstName550   LastName550  associate  91594.11
-  FirstName551   LastName551  associate  94879.69
-  FirstName552   LastName552  assistant  58799.20
-  FirstName553   LastName553       full 128227.79
-  FirstName554   LastName554  associate  97334.78
-  FirstName555   LastName555       full 123700.32
-  FirstName556   LastName556       full 102779.93
-  FirstName557   LastName557  assistant  56480.76
-  FirstName558   LastName558  associate 101242.82
-  FirstName559   LastName559       full  90093.70
-  FirstName560   LastName560  assistant  77881.23
-  FirstName561   LastName561       full  87681.61
-  FirstName562   LastName562  assistant  53024.89
-  FirstName563   LastName563       full 101936.72
-  FirstName564   LastName564       full  88892.26
-  FirstName565   LastName565  assistant  65628.99
-  FirstName566   LastName566  assistant  69624.72
-  FirstName567   LastName567  associate  73418.07
-  FirstName568   LastName568  assistant  55898.64
-  FirstName569   LastName569  assistant  56010.55
-  FirstName570   LastName570       full 127712.61
-  FirstName571   LastName571  assistant  53773.25
-  FirstName572   LastName572  assistant  75791.00
-  FirstName573   LastName573       full  82600.60
-  FirstName574   LastName574  associate 103910.44
-  FirstName575   LastName575       full  99033.99
-  FirstName576   LastName576       full 110202.73
-  FirstName577   LastName577  associate  75892.83
-  FirstName578   LastName578       full  85797.45
-  FirstName579   LastName579  associate  76282.60
-  FirstName580   LastName580  associate  82471.95
-  FirstName581   LastName581  assistant  62559.09
-  FirstName582   LastName582  associate  60143.94
-  FirstName583   LastName583  assistant  50189.86
-  FirstName584   LastName584       full  84548.16
-  FirstName585   LastName585  associate 104586.48
-  FirstName586   LastName586  associate  86439.49
-  FirstName587   LastName587  associate  83704.06
-  FirstName588   LastName588  associate  89329.18
-  FirstName589   LastName589  associate  62485.22
-  FirstName590   LastName590  associate  72763.19
-  FirstName591   LastName591       full 112739.27
-  FirstName592   LastName592       full  84681.22
-  FirstName593   LastName593       full 126644.32
-  FirstName594   LastName594       full  95988.52
-  FirstName595   LastName595       full 109662.86
-  FirstName596   LastName596       full 107253.77
-  FirstName597   LastName597  associate  60745.15
-  FirstName598   LastName598  assistant  79497.67
-  FirstName599   LastName599       full 125796.25
-  FirstName600   LastName600  associate  91874.14
-  FirstName601   LastName601       full 123883.53
-  FirstName602   LastName602       full  99312.96
-  FirstName603   LastName603       full 121088.47
-  FirstName604   LastName604  associate  66216.44
-  FirstName605   LastName605  assistant  70002.37
-  FirstName606   LastName606  assistant  79426.69
-  FirstName607   LastName607       full 124211.04
-  FirstName608   LastName608       full 122135.68
-  FirstName609   LastName609  assistant  69484.73
-  FirstName610   LastName610  associate  79231.79
-  FirstName611   LastName611  assistant  62730.26
-  FirstName612   LastName612  associate  92298.62
-  FirstName613   LastName613       full  97711.68
-  FirstName614   LastName614  associate  71973.70
-  FirstName615   LastName615       full 115436.33
-  FirstName616   LastName616  associate  69534.52
-  FirstName617   LastName617  associate  86947.76
-  FirstName618   LastName618  assistant  58178.70
-  FirstName619   LastName619       full 118249.02
-  FirstName620   LastName620       full  79317.81
-  FirstName621   LastName621       full 103372.02
-  FirstName622   LastName622       full 109347.46
-  FirstName623   LastName623  associate  85407.53
-  FirstName624   LastName624  assistant  60518.87
-  FirstName625   LastName625  associate  88909.06
-  FirstName626   LastName626  assistant  54060.22
-  FirstName627   LastName627  associate  68299.91
-  FirstName628   LastName628       full  93831.35
-  FirstName629   LastName629  assistant  65158.27
-  FirstName630   LastName630       full 128808.20
-  FirstName631   LastName631       full  97614.79
-  FirstName632   LastName632  associate  97736.76
-  FirstName633   LastName633  associate  92409.23
-  FirstName634   LastName634  assistant  56637.50
-  FirstName635   LastName635  assistant  77409.86
-  FirstName636   LastName636       full  84022.60
-  FirstName637   LastName637  associate  95221.50
-  FirstName638   LastName638  associate  67434.10
-  FirstName639   LastName639  associate  96062.87
-  FirstName640   LastName640  assistant  62817.59
-  FirstName641   LastName641       full  75559.50
-  FirstName642   LastName642       full  98474.88
-  FirstName643   LastName643       full 115681.61
-  FirstName644   LastName644  associate  94465.66
-  FirstName645   LastName645  associate  78465.23
-  FirstName646   LastName646  assistant  63286.00
-  FirstName647   LastName647  assistant  79339.64
-  FirstName648   LastName648  assistant  78502.69
-  FirstName649   LastName649  assistant  70669.90
-  FirstName650   LastName650  associate  80057.47
-  FirstName651   LastName651       full  99981.08
-  FirstName652   LastName652  associate  79881.66
-  FirstName653   LastName653       full 126768.03
-  FirstName654   LastName654  assistant  50235.11
-  FirstName655   LastName655  associate 105256.93
-  FirstName656   LastName656  assistant  78947.60
-  FirstName657   LastName657  assistant  56596.62
-  FirstName658   LastName658  associate 101321.72
-  FirstName659   LastName659  associate  94775.30
-  FirstName660   LastName660       full 119938.78
-  FirstName661   LastName661  assistant  77383.76
-  FirstName662   LastName662       full 109979.90
-  FirstName663   LastName663  associate  88523.33
-  FirstName664   LastName664  associate  96303.65
-  FirstName665   LastName665  assistant  57754.09
-  FirstName666   LastName666  associate  78706.73
-  FirstName667   LastName667  assistant  54389.65
-  FirstName668   LastName668  associate  87003.62
-  FirstName669   LastName669  associate 100345.89
-  FirstName670   LastName670       full 102324.38
-  FirstName671   LastName671  associate  74191.08
-  FirstName672   LastName672  associate  70210.11
-  FirstName673   LastName673  assistant  66621.86
-  FirstName674   LastName674  associate 101849.11
-  FirstName675   LastName675  associate  96931.91
-  FirstName676   LastName676       full  77202.58
-  FirstName677   LastName677  assistant  73081.50
-  FirstName678   LastName678       full  91178.30
-  FirstName679   LastName679       full 115344.00
-  FirstName680   LastName680  assistant  57221.97
-  FirstName681   LastName681  assistant  73587.54
-  FirstName682   LastName682       full 126521.13
-  FirstName683   LastName683       full  94069.42
-  FirstName684   LastName684  assistant  73660.56
-  FirstName685   LastName685  associate  73724.88
-  FirstName686   LastName686  associate  77475.44
-  FirstName687   LastName687  assistant  75831.39
-  FirstName688   LastName688  assistant  57592.78
-  FirstName689   LastName689  associate  98237.83
-  FirstName690   LastName690  associate  75389.56
-  FirstName691   LastName691       full 100761.74
-  FirstName692   LastName692       full  84575.10
-  FirstName693   LastName693  associate  82205.53
-  FirstName694   LastName694  associate  65544.62
-  FirstName695   LastName695       full 128565.91
-  FirstName696   LastName696       full 129489.99
-  FirstName697   LastName697       full 102091.14
-  FirstName698   LastName698       full  83601.68
-  FirstName699   LastName699  assistant  61840.22
-  FirstName700   LastName700       full 114582.84
-  FirstName701   LastName701  associate  83994.68
-  FirstName702   LastName702  assistant  67627.06
-  FirstName703   LastName703  associate  89851.16
-  FirstName704   LastName704  associate 102094.40
-  FirstName705   LastName705  associate  89618.11
-  FirstName706   LastName706  assistant  52876.19
-  FirstName707   LastName707       full  95217.08
-  FirstName708   LastName708  associate  65194.40
-  FirstName709   LastName709  assistant  71267.07
-  FirstName710   LastName710  assistant  56316.95
-  FirstName711   LastName711  associate  88100.82
-  FirstName712   LastName712  assistant  55736.32
-  FirstName713   LastName713       full 107792.27
-  FirstName714   LastName714  assistant  69724.22
-  FirstName715   LastName715  associate  71316.61
-  FirstName716   LastName716  associate  84028.66
-  FirstName717   LastName717  associate  97121.07
-  FirstName718   LastName718  associate  90947.68
-  FirstName719   LastName719       full 120935.49
-  FirstName720   LastName720       full  93043.82
-  FirstName721   LastName721  assistant  67958.25
-  FirstName722   LastName722  assistant  79311.50
-  FirstName723   LastName723  assistant  51252.15
-  FirstName724   LastName724  assistant  68010.00
-  FirstName725   LastName725  assistant  57442.67
-  FirstName726   LastName726  associate 103595.93
-  FirstName727   LastName727  assistant  67505.34
-  FirstName728   LastName728  associate  80285.69
-  FirstName729   LastName729  assistant  73178.72
-  FirstName730   LastName730  assistant  54725.49
-  FirstName731   LastName731       full  88141.65
-  FirstName732   LastName732       full  87787.21
-  FirstName733   LastName733  assistant  75059.12
-  FirstName734   LastName734       full 107263.23
-  FirstName735   LastName735       full 128843.57
-  FirstName736   LastName736       full 127315.31
-  FirstName737   LastName737  assistant  57487.12
-  FirstName738   LastName738  assistant  74212.70
-  FirstName739   LastName739       full 113961.14
-  FirstName740   LastName740       full  96336.19
-  FirstName741   LastName741  associate  87695.65
-  FirstName742   LastName742       full 102595.87
-  FirstName743   LastName743  assistant  57237.14
-  FirstName744   LastName744       full  98431.50
-  FirstName745   LastName745  associate 103088.56
-  FirstName746   LastName746  assistant  57599.31
-  FirstName747   LastName747  associate  80255.48
-  FirstName748   LastName748  assistant  75279.49
-  FirstName749   LastName749  assistant  65185.39
-  FirstName750   LastName750  assistant  79012.04
-  FirstName751   LastName751  assistant  62556.25
-  FirstName752   LastName752  assistant  60132.32
-  FirstName753   LastName753  associate  72434.00
-  FirstName754   LastName754  associate 106641.91
-  FirstName755   LastName755       full 126496.03
-  FirstName756   LastName756  associate  83108.37
-  FirstName757   LastName757       full  78961.91
-  FirstName758   LastName758       full 122217.61
-  FirstName759   LastName759  associate  80344.81
-  FirstName760   LastName760       full  97114.66
-  FirstName761   LastName761       full 120445.11
-  FirstName762   LastName762  associate  82851.99
-  FirstName763   LastName763  associate  91854.17
-  FirstName764   LastName764  assistant  74799.81
-  FirstName765   LastName765       full  88618.46
-  FirstName766   LastName766  assistant  62573.97
-  FirstName767   LastName767       full 113916.02
-  FirstName768   LastName768  associate  72803.76
-  FirstName769   LastName769  assistant  53591.84
-  FirstName770   LastName770  associate 102667.48
-  FirstName771   LastName771       full 109910.34
-  FirstName772   LastName772       full 111129.40
-  FirstName773   LastName773       full 107837.28
-  FirstName774   LastName774       full 103928.03
-  FirstName775   LastName775  assistant  62684.48
-  FirstName776   LastName776  associate  71092.27
-  FirstName777   LastName777  associate 107968.05
-  FirstName778   LastName778  associate  84120.75
-  FirstName779   LastName779  assistant  62029.48
-  FirstName780   LastName780       full 104752.76
-  FirstName781   LastName781       full  92466.96
-  FirstName782   LastName782  assistant  76473.69
-  FirstName783   LastName783  assistant  79699.14
-  FirstName784   LastName784       full 109167.89
-  FirstName785   LastName785  associate  61993.87
-  FirstName786   LastName786  assistant  53930.67
-  FirstName787   LastName787       full  91100.99
-  FirstName788   LastName788  assistant  63851.82
-  FirstName789   LastName789       full 125487.51
-  FirstName790   LastName790  assistant  69105.13
-  FirstName791   LastName791       full  83454.43
-  FirstName792   LastName792  associate  67058.87
-  FirstName793   LastName793  associate  77144.01
-  FirstName794   LastName794  associate  99040.26
-  FirstName795   LastName795       full 106958.84
-  FirstName796   LastName796  assistant  68755.08
-  FirstName797   LastName797  assistant  50300.82
-  FirstName798   LastName798  assistant  77786.15
-  FirstName799   LastName799  assistant  70301.32
-  FirstName800   LastName800  assistant  72496.23
-  FirstName801   LastName801       full 125746.74
-  FirstName802   LastName802       full 105400.21
-  FirstName803   LastName803  assistant  64051.45
-  FirstName804   LastName804       full  79916.63
-  FirstName805   LastName805  assistant  71412.15
-  FirstName806   LastName806  associate 102320.10
-  FirstName807   LastName807       full  90865.52
-  FirstName808   LastName808  assistant  69912.19
-  FirstName809   LastName809  assistant  66659.42
-  FirstName810   LastName810  assistant  59821.17
-  FirstName811   LastName811       full 107670.33
-  FirstName812   LastName812  associate  94724.45
-  FirstName813   LastName813  assistant  55259.66
-  FirstName814   LastName814  assistant  60430.41
-  FirstName815   LastName815  associate  78625.26
-  FirstName816   LastName816  assistant  75953.94
-  FirstName817   LastName817  assistant  72530.76
-  FirstName818   LastName818  assistant  66228.74
-  FirstName819   LastName819  assistant  65839.22
-  FirstName820   LastName820  assistant  73794.49
-  FirstName821   LastName821  assistant  70964.18
-  FirstName822   LastName822  associate  87807.04
-  FirstName823   LastName823  associate 104591.32
-  FirstName824   LastName824  associate  93543.25
-  FirstName825   LastName825  assistant  68893.51
-  FirstName826   LastName826  associate  92860.19
-  FirstName827   LastName827       full 116420.95
-  FirstName828   LastName828       full  90514.03
-  FirstName829   LastName829  assistant  79723.83
-  FirstName830   LastName830  assistant  50628.68
-  FirstName831   LastName831  associate  62630.49
-  FirstName832   LastName832  associate 102575.30
-  FirstName833   LastName833  assistant  54808.04
-  FirstName834   LastName834  assistant  74447.83
-  FirstName835   LastName835       full 109946.42
-  FirstName836   LastName836       full  98878.17
-  FirstName837   LastName837  assistant  50555.87
-  FirstName838   LastName838       full  96305.64
-  FirstName839   LastName839  associate  70311.78
-  FirstName840   LastName840  associate 100072.20
-  FirstName841   LastName841  assistant  57861.72
-  FirstName842   LastName842  associate  67572.19
-  FirstName843   LastName843  assistant  76478.20
-  FirstName844   LastName844  assistant  50942.53
-  FirstName845   LastName845  associate 109061.76
-  FirstName846   LastName846  assistant  79865.27
-  FirstName847   LastName847       full 101926.43
-  FirstName848   LastName848  associate  72987.43
-  FirstName849   LastName849  assistant  58133.49
-  FirstName850   LastName850       full  91595.62
-  FirstName851   LastName851       full 129520.77
-  FirstName852   LastName852  assistant  58964.73
-  FirstName853   LastName853  associate 104737.25
-  FirstName854   LastName854  assistant  77146.90
-  FirstName855   LastName855  assistant  71106.28
-  FirstName856   LastName856  associate  64090.32
-  FirstName857   LastName857       full  89770.75
-  FirstName858   LastName858  associate  88671.41
-  FirstName859   LastName859       full  85004.74
-  FirstName860   LastName860       full  82630.72
-  FirstName861   LastName861       full  90917.28
-  FirstName862   LastName862  assistant  75345.58
-  FirstName863   LastName863       full 126149.16
-  FirstName864   LastName864       full 105895.67
-  FirstName865   LastName865       full 117498.44
-  FirstName866   LastName866  assistant  58924.90
-  FirstName867   LastName867  assistant  59671.28
-  FirstName868   LastName868  assistant  54988.25
-  FirstName869   LastName869  assistant  65637.92
-  FirstName870   LastName870  associate  89529.92
-  FirstName871   LastName871  assistant  61603.27
-  FirstName872   LastName872  associate 100280.22
-  FirstName873   LastName873  associate  74718.74
-  FirstName874   LastName874       full 122014.88
-  FirstName875   LastName875  assistant  60194.99
-  FirstName876   LastName876       full  77495.10
-  FirstName877   LastName877  associate  69827.07
-  FirstName878   LastName878  assistant  57955.09
-  FirstName879   LastName879  associate  61062.55
-  FirstName880   LastName880  assistant  69661.20
-  FirstName881   LastName881  assistant  57666.85
-  FirstName882   LastName882  assistant  76353.42
-  FirstName883   LastName883       full 109137.16
-  FirstName884   LastName884       full 109410.57
-  FirstName885   LastName885  associate  70468.89
-  FirstName886   LastName886       full  78691.06
-  FirstName887   LastName887       full  93804.43
-  FirstName888   LastName888       full 111503.27
-  FirstName889   LastName889  associate  98563.08
-  FirstName890   LastName890  assistant  53951.68
-  FirstName891   LastName891  assistant  76967.34
-  FirstName892   LastName892       full  95905.81
-  FirstName893   LastName893  associate 104643.35
-  FirstName894   LastName894  assistant  77718.32
-  FirstName895   LastName895       full 129358.50
-  FirstName896   LastName896       full 109069.30
-  FirstName897   LastName897       full 118707.14
-  FirstName898   LastName898  associate  88105.45
-  FirstName899   LastName899  associate  66638.51
-  FirstName900   LastName900  assistant  69305.43
-  FirstName901   LastName901  assistant  73501.03
-  FirstName902   LastName902  associate  88571.49
-  FirstName903   LastName903  assistant  66187.06
-  FirstName904   LastName904  associate  66201.33
-  FirstName905   LastName905  associate  66282.76
-  FirstName906   LastName906       full  76696.89
-  FirstName907   LastName907       full 122828.23
-  FirstName908   LastName908  associate  67582.25
-  FirstName909   LastName909  assistant  64942.93
-  FirstName910   LastName910  associate  87929.79
-  FirstName911   LastName911  assistant  51815.84
-  FirstName912   LastName912       full 114518.38
-  FirstName913   LastName913  assistant  73473.25
-  FirstName914   LastName914  assistant  56552.17
-  FirstName915   LastName915  assistant  67972.04
-  FirstName916   LastName916       full  95969.64
-  FirstName917   LastName917  associate  71300.54
-  FirstName918   LastName918       full 112320.62
-  FirstName919   LastName919  associate 104344.67
-  FirstName920   LastName920  assistant  51845.41
-  FirstName921   LastName921       full  88017.26
-  FirstName922   LastName922  associate  70281.62
-  FirstName923   LastName923  associate  89728.93
-  FirstName924   LastName924  associate  69546.07
-  FirstName925   LastName925  associate  76597.52
-  FirstName926   LastName926       full  92881.15
-  FirstName927   LastName927  associate  67409.69
-  FirstName928   LastName928  assistant  69734.87
-  FirstName929   LastName929  associate  60585.23
-  FirstName930   LastName930       full  87693.96
-  FirstName931   LastName931       full 115868.26
-  FirstName932   LastName932  associate  73124.32
-  FirstName933   LastName933  assistant  67222.69
-  FirstName934   LastName934  associate  73756.20
-  FirstName935   LastName935  associate  86459.49
-  FirstName936   LastName936       full 110086.00
-  FirstName937   LastName937       full  82927.92
-  FirstName938   LastName938  associate  66117.16
-  FirstName939   LastName939       full 122462.93
-  FirstName940   LastName940  assistant  75305.31
-  FirstName941   LastName941  assistant  63039.49
-  FirstName942   LastName942       full  96817.38
-  FirstName943   LastName943  associate  98476.94
-  FirstName944   LastName944  assistant  52644.79
-  FirstName945   LastName945  assistant  50262.63
-  FirstName946   LastName946  assistant  77222.71
-  FirstName947   LastName947  assistant  50317.22
-  FirstName948   LastName948  associate  74516.84
-  FirstName949   LastName949  associate  63194.96
-  FirstName950   LastName950       full 118066.73
-  FirstName951   LastName951  associate  80087.04
-  FirstName952   LastName952       full  98747.63
-  FirstName953   LastName953  associate  60328.66
-  FirstName954   LastName954  assistant  52887.62
-  FirstName955   LastName955  assistant  58238.05
-  FirstName956   LastName956  associate 105600.33
-  FirstName957   LastName957  assistant  60123.11
-  FirstName958   LastName958  assistant  74369.61
-  FirstName959   LastName959  associate  71368.20
-  FirstName960   LastName960  assistant  60821.43
-  FirstName961   LastName961       full 108898.61
-  FirstName962   LastName962       full  82821.87
-  FirstName963   LastName963  assistant  66771.20
-  FirstName964   LastName964  assistant  68448.23
-  FirstName965   LastName965  associate  86337.72
-  FirstName966   LastName966  associate  91653.97
-  FirstName967   LastName967  assistant  50946.62
-  FirstName968   LastName968  assistant  74545.51
-  FirstName969   LastName969  associate  75459.62
-  FirstName970   LastName970  associate  88887.69
-  FirstName971   LastName971  associate 102716.00
-  FirstName972   LastName972  associate 102420.40
-  FirstName973   LastName973  assistant  52492.36
-  FirstName974   LastName974  assistant  67265.62
-  FirstName975   LastName975  assistant  51074.69
-  FirstName976   LastName976  assistant  65960.33
-  FirstName977   LastName977  associate 101333.33
-  FirstName978   LastName978  associate  76302.52
-  FirstName979   LastName979  assistant  64902.18
-  FirstName980   LastName980  assistant  60523.00
-  FirstName981   LastName981  assistant  51034.96
-  FirstName982   LastName982       full 129372.99
-  FirstName983   LastName983  associate  89455.99
-  FirstName984   LastName984       full 107933.02
-  FirstName985   LastName985  assistant  59658.41
-  FirstName986   LastName986  assistant  70654.55
-  FirstName987   LastName987       full 125389.55
-  FirstName988   LastName988  associate  69824.86
-  FirstName989   LastName989       full 102300.44
-  FirstName990   LastName990  associate  60143.31
-  FirstName991   LastName991       full 107844.98
-  FirstName992   LastName992  associate  90938.01
-  FirstName993   LastName993  assistant  75932.64
-  FirstName994   LastName994  assistant  65236.13
-  FirstName995   LastName995  associate  78603.40
-  FirstName996   LastName996  assistant  69320.23
-  FirstName997   LastName997  assistant  73850.32
-  FirstName998   LastName998       full 114549.97
-  FirstName999   LastName999       full  85459.21
- FirstName1000  LastName1000  assistant  76447.52
+FirstName1 LastName1 associate 103093.64359031036
+FirstName2 LastName2 assistant 76508.41391874314
+FirstName3 LastName3 full 84349.01323370221
+FirstName4 LastName4 full 124214.93586621425
+FirstName5 LastName5 full 119465.48108815029
+FirstName6 LastName6 assistant 74554.25001854707
+FirstName7 LastName7 full 118547.23765990077
+FirstName8 LastName8 associate 73936.61046033574
+FirstName9 LastName9 full 86632.76903728028
+FirstName10 LastName10 associate 93441.53546814018
+FirstName11 LastName11 assistant 73390.28034898902
+FirstName12 LastName12 associate 98680.9735232217
+FirstName13 LastName13 associate 65511.99292300026
+FirstName14 LastName14 associate 101505.6872073735
+FirstName15 LastName15 assistant 67402.94160362432
+FirstName16 LastName16 full 116492.39050492097
+FirstName17 LastName17 full 100042.95236152268
+FirstName18 LastName18 assistant 61207.666896031165
+FirstName19 LastName19 full 107694.65676169364
+FirstName20 LastName20 full 124110.76449440286
+FirstName21 LastName21 associate 82388.78364417252
+FirstName22 LastName22 full 102576.66820767557
+FirstName23 LastName23 assistant 57809.54422060716
+FirstName24 LastName24 assistant 79184.87937071151
+FirstName25 LastName25 associate 77774.42841383728
+FirstName26 LastName26 associate 77757.8659259477
+FirstName27 LastName27 assistant 53834.27431964139
+FirstName28 LastName28 assistant 60708.86244283481
+FirstName29 LastName29 associate 105252.44937544879
+FirstName30 LastName30 full 121109.16336825042
+FirstName31 LastName31 assistant 54611.01978077463
+FirstName32 LastName32 full 124072.74003122663
+FirstName33 LastName33 associate 89821.48806072166
+FirstName34 LastName34 full 94938.45935464383
+FirstName35 LastName35 associate 94305.40080840592
+FirstName36 LastName36 assistant 58617.216536885244
+FirstName37 LastName37 associate 86913.36222532444
+FirstName38 LastName38 associate 93879.01890903588
+FirstName39 LastName39 full 122425.82409494068
+FirstName40 LastName40 full 88627.62527617565
+FirstName41 LastName41 assistant 69540.8360114361
+FirstName42 LastName42 associate 69815.28714159895
+FirstName43 LastName43 full 96573.5238646795
+FirstName44 LastName44 assistant 77159.77597812546
+FirstName45 LastName45 full 93593.07421407473
+FirstName46 LastName46 assistant 64194.777846926365
+FirstName47 LastName47 associate 107540.31070489265
+FirstName48 LastName48 full 92808.77577754714
+FirstName49 LastName49 full 128083.73486911487
+FirstName50 LastName50 assistant 72429.87932786741
+FirstName51 LastName51 assistant 69523.80620127257
+FirstName52 LastName52 assistant 53586.48175797726
+FirstName53 LastName53 assistant 72741.59895722296
+FirstName54 LastName54 full 114183.25231823785
+FirstName55 LastName55 assistant 59599.685348318184
+FirstName56 LastName56 full 101397.79329812118
+FirstName57 LastName57 assistant 78609.83579582526
+FirstName58 LastName58 full 125379.31795650366
+FirstName59 LastName59 full 105498.39825633595
+FirstName60 LastName60 associate 65780.66195781711
+FirstName61 LastName61 assistant 59297.358167460916
+FirstName62 LastName62 assistant 63820.54957981025
+FirstName63 LastName63 associate 98565.25666868215
+FirstName64 LastName64 full 126222.67308779004
+FirstName65 LastName65 assistant 59581.22388597335
+FirstName66 LastName66 associate 105280.02744785111
+FirstName67 LastName67 full 115276.77444209336
+FirstName68 LastName68 assistant 63533.09477587099
+FirstName69 LastName69 associate 96235.30003951603
+FirstName70 LastName70 associate 86742.5535639918
+FirstName71 LastName71 full 89469.88573611755
+FirstName72 LastName72 assistant 58468.687386865495
+FirstName73 LastName73 assistant 55507.43197735899
+FirstName74 LastName74 associate 80065.47349199733
+FirstName75 LastName75 assistant 54155.3838627569
+FirstName76 LastName76 associate 67695.38498558498
+FirstName77 LastName77 associate 69037.24751169747
+FirstName78 LastName78 associate 100296.88976966048
+FirstName79 LastName79 associate 77904.24091685182
+FirstName80 LastName80 associate 75725.06423332363
+FirstName81 LastName81 assistant 66045.8000361039
+FirstName82 LastName82 assistant 53686.52699601761
+FirstName83 LastName83 full 90603.4506901398
+FirstName84 LastName84 full 92849.90088563219
+FirstName85 LastName85 full 80378.64789357531
+FirstName86 LastName86 full 82177.53870011671
+FirstName87 LastName87 assistant 60871.77268836451
+FirstName88 LastName88 associate 86429.94245341496
+FirstName89 LastName89 full 102170.36441525642
+FirstName90 LastName90 assistant 57753.10539472331
+FirstName91 LastName91 full 97372.83594208062
+FirstName92 LastName92 assistant 72271.63362483491
+FirstName93 LastName93 full 129873.40556721119
+FirstName94 LastName94 associate 80548.36469666568
+FirstName95 LastName95 associate 92790.93568673168
+FirstName96 LastName96 assistant 78197.46114417572
+FirstName97 LastName97 associate 104768.17741592311
+FirstName98 LastName98 associate 73835.38701189398
+FirstName99 LastName99 full 79871.81952610423
+FirstName100 LastName100 assistant 79274.44329709318
+FirstName101 LastName101 full 126228.06401965824
+FirstName102 LastName102 associate 74243.83007238415
+FirstName103 LastName103 associate 95681.88293231509
+FirstName104 LastName104 associate 91403.2793536385
+FirstName105 LastName105 assistant 70536.67989994428
+FirstName106 LastName106 associate 90912.91882741792
+FirstName107 LastName107 associate 100339.91912763959
+FirstName108 LastName108 associate 84812.06716033231
+FirstName109 LastName109 associate 108623.4935669007
+FirstName110 LastName110 associate 107151.24052412933
+FirstName111 LastName111 associate 75987.76699905329
+FirstName112 LastName112 full 104724.382798633
+FirstName113 LastName113 full 109794.85270838582
+FirstName114 LastName114 associate 98278.5108200733
+FirstName115 LastName115 associate 106619.03722026203
+FirstName116 LastName116 full 91284.21802499321
+FirstName117 LastName117 associate 73838.03163437649
+FirstName118 LastName118 full 106708.45414403593
+FirstName119 LastName119 associate 83564.07569895047
+FirstName120 LastName120 assistant 51488.74870219246
+FirstName121 LastName121 full 122664.03078135947
+FirstName122 LastName122 associate 69602.48775802036
+FirstName123 LastName123 full 111700.65969234842
+FirstName124 LastName124 assistant 65317.380185004804
+FirstName125 LastName125 assistant 56265.539993045386
+FirstName126 LastName126 full 127399.99428098605
+FirstName127 LastName127 full 101097.90719041215
+FirstName128 LastName128 full 117057.35763651282
+FirstName129 LastName129 full 114405.31573467884
+FirstName130 LastName130 full 112946.69706717694
+FirstName131 LastName131 associate 81183.35730447054
+FirstName132 LastName132 assistant 66308.59493001725
+FirstName133 LastName133 full 76903.44353929769
+FirstName134 LastName134 assistant 68604.7744539214
+FirstName135 LastName135 assistant 71968.69058854604
+FirstName136 LastName136 assistant 52891.50156685712
+FirstName137 LastName137 assistant 61351.84515080493
+FirstName138 LastName138 full 106742.58227361357
+FirstName139 LastName139 assistant 54334.08956917923
+FirstName140 LastName140 associate 69867.50665370289
+FirstName141 LastName141 assistant 70408.01011232023
+FirstName142 LastName142 associate 72111.0468980411
+FirstName143 LastName143 associate 96142.04180284293
+FirstName144 LastName144 associate 63817.27122978263
+FirstName145 LastName145 full 124209.22746470913
+FirstName146 LastName146 associate 74145.92267961425
+FirstName147 LastName147 full 78597.66820464913
+FirstName148 LastName148 full 91817.8418003026
+FirstName149 LastName149 full 78184.74456528363
+FirstName150 LastName150 full 105794.4958888072
+FirstName151 LastName151 associate 93496.28069845255
+FirstName152 LastName152 associate 106501.63374824866
+FirstName153 LastName153 associate 107496.68902507049
+FirstName154 LastName154 assistant 74376.94481816143
+FirstName155 LastName155 full 98011.58533715765
+FirstName156 LastName156 associate 78612.67261378278
+FirstName157 LastName157 assistant 63719.38919936595
+FirstName158 LastName158 associate 84167.32244556186
+FirstName159 LastName159 associate 80223.1934094284
+FirstName160 LastName160 full 124703.86670545128
+FirstName161 LastName161 assistant 79501.44311862171
+FirstName162 LastName162 full 107499.74807422713
+FirstName163 LastName163 assistant 67288.76655672368
+FirstName164 LastName164 full 114096.59755601062
+FirstName165 LastName165 associate 85214.19756480653
+FirstName166 LastName166 associate 100618.1701836554
+FirstName167 LastName167 full 125464.6757375204
+FirstName168 LastName168 full 121489.5237913764
+FirstName169 LastName169 assistant 53545.209488651744
+FirstName170 LastName170 assistant 55542.56281813639
+FirstName171 LastName171 full 82655.39741605773
+FirstName172 LastName172 associate 89582.72165653169
+FirstName173 LastName173 assistant 55558.88739844933
+FirstName174 LastName174 associate 64290.09291778821
+FirstName175 LastName175 assistant 53144.48227391164
+FirstName176 LastName176 associate 61949.20726496112
+FirstName177 LastName177 full 97363.65666622063
+FirstName178 LastName178 full 97234.2011601076
+FirstName179 LastName179 associate 83098.74679096782
+FirstName180 LastName180 associate 104499.51395553186
+FirstName181 LastName181 assistant 63158.334091365476
+FirstName182 LastName182 full 78292.47519287602
+FirstName183 LastName183 full 86129.6730774963
+FirstName184 LastName184 full 118680.02303272288
+FirstName185 LastName185 associate 104599.00966028756
+FirstName186 LastName186 full 90574.04551298062
+FirstName187 LastName187 full 81785.95217817576
+FirstName188 LastName188 associate 96974.88519009383
+FirstName189 LastName189 associate 100588.68268788904
+FirstName190 LastName190 assistant 59459.21562168859
+FirstName191 LastName191 associate 80692.87155187243
+FirstName192 LastName192 assistant 58633.08799820587
+FirstName193 LastName193 full 129271.19126560866
+FirstName194 LastName194 assistant 63138.95117495324
+FirstName195 LastName195 assistant 75092.24230824645
+FirstName196 LastName196 assistant 70674.80885366464
+FirstName197 LastName197 full 112703.59673490975
+FirstName198 LastName198 assistant 64807.0025337703
+FirstName199 LastName199 assistant 56878.132868079774
+FirstName200 LastName200 associate 68035.97197578438
+FirstName201 LastName201 assistant 70015.57537597354
+FirstName202 LastName202 full 91828.5793522835
+FirstName203 LastName203 full 91509.04273749058
+FirstName204 LastName204 associate 103211.07438373819
+FirstName205 LastName205 full 106025.00761383577
+FirstName206 LastName206 full 111397.26245270878
+FirstName207 LastName207 full 126417.15953609263
+FirstName208 LastName208 assistant 61053.179248571534
+FirstName209 LastName209 assistant 79531.18469390427
+FirstName210 LastName210 full 116926.50022139565
+FirstName211 LastName211 associate 84655.43021630135
+FirstName212 LastName212 full 109705.55207808272
+FirstName213 LastName213 full 126257.40650146239
+FirstName214 LastName214 associate 75332.97712586663
+FirstName215 LastName215 associate 100731.24416266958
+FirstName216 LastName216 assistant 73551.48600101257
+FirstName217 LastName217 associate 79581.44070167234
+FirstName218 LastName218 assistant 68471.74678469739
+FirstName219 LastName219 full 124923.47106786654
+FirstName220 LastName220 associate 73283.58103803926
+FirstName221 LastName221 assistant 55307.668876014635
+FirstName222 LastName222 full 100159.28195167067
+FirstName223 LastName223 full 104875.12617120029
+FirstName224 LastName224 associate 63078.410083653886
+FirstName225 LastName225 assistant 61650.18057471782
+FirstName226 LastName226 associate 84174.57860943764
+FirstName227 LastName227 assistant 56793.557028959636
+FirstName228 LastName228 full 81974.37953244649
+FirstName229 LastName229 associate 63984.993840588366
+FirstName230 LastName230 associate 81875.45380962038
+FirstName231 LastName231 associate 73500.36203652047
+FirstName232 LastName232 assistant 57140.0616525931
+FirstName233 LastName233 assistant 79405.76314315994
+FirstName234 LastName234 assistant 66349.8783933833
+FirstName235 LastName235 assistant 78181.97040376865
+FirstName236 LastName236 assistant 74960.46852589789
+FirstName237 LastName237 associate 78490.41837655085
+FirstName238 LastName238 full 115980.30466222277
+FirstName239 LastName239 assistant 76852.79152308425
+FirstName240 LastName240 full 108513.91690490133
+FirstName241 LastName241 assistant 63674.559366687434
+FirstName242 LastName242 full 112091.21980141968
+FirstName243 LastName243 full 97162.83251073165
+FirstName244 LastName244 associate 106917.35144625089
+FirstName245 LastName245 full 121636.575135433
+FirstName246 LastName246 full 105955.59270306132
+FirstName247 LastName247 assistant 51081.154868169426
+FirstName248 LastName248 full 94001.19367891221
+FirstName249 LastName249 associate 108992.13313110374
+FirstName250 LastName250 associate 82603.30855650015
+FirstName251 LastName251 assistant 75206.53268352176
+FirstName252 LastName252 full 109466.11990619614
+FirstName253 LastName253 full 106608.30235747813
+FirstName254 LastName254 associate 79809.0751501254
+FirstName255 LastName255 full 85258.41021291657
+FirstName256 LastName256 assistant 60949.4263371938
+FirstName257 LastName257 full 102628.38074143734
+FirstName258 LastName258 assistant 66653.31346320898
+FirstName259 LastName259 full 118042.66046095075
+FirstName260 LastName260 assistant 76696.080626787
+FirstName261 LastName261 full 109417.2803219131
+FirstName262 LastName262 assistant 60225.288848215976
+FirstName263 LastName263 full 106138.80812747002
+FirstName264 LastName264 full 127957.03525774989
+FirstName265 LastName265 associate 84233.51731299705
+FirstName266 LastName266 full 76461.7994423388
+FirstName267 LastName267 assistant 63588.24465168333
+FirstName268 LastName268 associate 96257.40068783778
+FirstName269 LastName269 full 125241.32964186493
+FirstName270 LastName270 assistant 64369.609564498474
+FirstName271 LastName271 assistant 54855.57802929632
+FirstName272 LastName272 associate 94606.7138411416
+FirstName273 LastName273 associate 107090.10135372219
+FirstName274 LastName274 associate 106186.94466360562
+FirstName275 LastName275 assistant 67701.08612766444
+FirstName276 LastName276 assistant 74899.08761525374
+FirstName277 LastName277 assistant 67242.79990142043
+FirstName278 LastName278 associate 105222.4516408853
+FirstName279 LastName279 associate 83021.19963928928
+FirstName280 LastName280 full 129968.08594675719
+FirstName281 LastName281 associate 75046.35438474824
+FirstName282 LastName282 associate 102260.11159866315
+FirstName283 LastName283 assistant 56434.27778580707
+FirstName284 LastName284 assistant 59063.193925739266
+FirstName285 LastName285 assistant 62765.959502466634
+FirstName286 LastName286 associate 103840.47746163761
+FirstName287 LastName287 associate 78637.70259842114
+FirstName288 LastName288 assistant 53429.42757578588
+FirstName289 LastName289 associate 88828.48516105948
+FirstName290 LastName290 full 121032.48871297014
+FirstName291 LastName291 full 120979.28010244312
+FirstName292 LastName292 assistant 75305.43314387125
+FirstName293 LastName293 associate 109074.1228797172
+FirstName294 LastName294 associate 90219.17480402032
+FirstName295 LastName295 associate 102464.05574106617
+FirstName296 LastName296 associate 94638.1387665686
+FirstName297 LastName297 associate 78103.2930738645
+FirstName298 LastName298 assistant 55319.01370116045
+FirstName299 LastName299 assistant 68064.07785780818
+FirstName300 LastName300 full 128246.98135330254
+FirstName301 LastName301 associate 87262.80771921412
+FirstName302 LastName302 assistant 54683.48343776769
+FirstName303 LastName303 associate 94345.87498259978
+FirstName304 LastName304 assistant 71428.99503357575
+FirstName305 LastName305 associate 66872.7673141926
+FirstName306 LastName306 full 104739.26076381284
+FirstName307 LastName307 associate 104422.4353929455
+FirstName308 LastName308 associate 95677.77418252514
+FirstName309 LastName309 assistant 75801.4970196487
+FirstName310 LastName310 assistant 50071.548000065515
+FirstName311 LastName311 associate 61368.55012818669
+FirstName312 LastName312 full 82326.17002320466
+FirstName313 LastName313 assistant 61813.39285816779
+FirstName314 LastName314 associate 62029.541371629
+FirstName315 LastName315 assistant 74898.03519762974
+FirstName316 LastName316 full 94618.2972037294
+FirstName317 LastName317 assistant 74888.40888090811
+FirstName318 LastName318 associate 94235.40132128773
+FirstName319 LastName319 assistant 51406.17744796576
+FirstName320 LastName320 assistant 73506.5937677853
+FirstName321 LastName321 full 79058.27646275458
+FirstName322 LastName322 associate 92545.61559391044
+FirstName323 LastName323 assistant 58820.51203748459
+FirstName324 LastName324 assistant 68997.30183169134
+FirstName325 LastName325 associate 100232.90286198386
+FirstName326 LastName326 associate 65717.92053687978
+FirstName327 LastName327 associate 76865.52822580817
+FirstName328 LastName328 assistant 51145.98710810685
+FirstName329 LastName329 assistant 74871.2338659084
+FirstName330 LastName330 associate 85340.56237276219
+FirstName331 LastName331 associate 99743.59178111306
+FirstName332 LastName332 associate 108055.37622424884
+FirstName333 LastName333 full 126461.7542115715
+FirstName334 LastName334 assistant 79996.55065093064
+FirstName335 LastName335 associate 83938.54032539365
+FirstName336 LastName336 assistant 71648.99895429265
+FirstName337 LastName337 full 107639.24123632167
+FirstName338 LastName338 associate 89202.33164782246
+FirstName339 LastName339 full 121704.3066897369
+FirstName340 LastName340 full 84225.80523549407
+FirstName341 LastName341 full 80066.80227527968
+FirstName342 LastName342 full 124694.66923550029
+FirstName343 LastName343 associate 75174.16336213441
+FirstName344 LastName344 assistant 73302.95392763283
+FirstName345 LastName345 associate 108657.02788363428
+FirstName346 LastName346 assistant 57721.50771258189
+FirstName347 LastName347 associate 73661.220297115
+FirstName348 LastName348 assistant 56641.21071960871
+FirstName349 LastName349 associate 102406.2213874471
+FirstName350 LastName350 associate 81330.46972456088
+FirstName351 LastName351 assistant 60535.243288007405
+FirstName352 LastName352 full 85208.58271835936
+FirstName353 LastName353 associate 107644.07291009193
+FirstName354 LastName354 full 88083.38629471554
+FirstName355 LastName355 assistant 77646.59500921576
+FirstName356 LastName356 full 100637.80764729677
+FirstName357 LastName357 associate 61721.17890321619
+FirstName358 LastName358 associate 61182.903327334614
+FirstName359 LastName359 assistant 50474.84340270645
+FirstName360 LastName360 assistant 69316.42852042193
+FirstName361 LastName361 full 98029.92933131175
+FirstName362 LastName362 assistant 61672.33481452645
+FirstName363 LastName363 assistant 61005.02217074232
+FirstName364 LastName364 associate 103057.09946472687
+FirstName365 LastName365 full 94627.63636754088
+FirstName366 LastName366 full 127011.84840701659
+FirstName367 LastName367 full 123611.59699136477
+FirstName368 LastName368 associate 84474.0283838226
+FirstName369 LastName369 assistant 79916.00574777639
+FirstName370 LastName370 full 125715.753329964
+FirstName371 LastName371 assistant 50638.30458090128
+FirstName372 LastName372 assistant 71701.26895118908
+FirstName373 LastName373 associate 89061.6844973554
+FirstName374 LastName374 full 119665.66070478091
+FirstName375 LastName375 assistant 72908.86273238379
+FirstName376 LastName376 full 96170.07220969244
+FirstName377 LastName377 full 114096.29381005603
+FirstName378 LastName378 associate 83483.79887003524
+FirstName379 LastName379 associate 69969.85091653578
+FirstName380 LastName380 full 101103.4379365919
+FirstName381 LastName381 assistant 73534.87901940226
+FirstName382 LastName382 associate 75592.31261890061
+FirstName383 LastName383 full 124859.69782111773
+FirstName384 LastName384 full 88946.78664442935
+FirstName385 LastName385 assistant 78504.6233663327
+FirstName386 LastName386 associate 86950.41841450316
+FirstName387 LastName387 assistant 68665.90995409692
+FirstName388 LastName388 associate 104606.51701985524
+FirstName389 LastName389 associate 68623.40499646579
+FirstName390 LastName390 associate 86654.2668718498
+FirstName391 LastName391 associate 105965.12760077034
+FirstName392 LastName392 associate 108500.65687616877
+FirstName393 LastName393 full 89408.21329682092
+FirstName394 LastName394 associate 102181.8166768298
+FirstName395 LastName395 associate 103137.64811007108
+FirstName396 LastName396 associate 78171.47203249305
+FirstName397 LastName397 associate 108193.71859483651
+FirstName398 LastName398 assistant 62662.17145852274
+FirstName399 LastName399 assistant 76033.49321099775
+FirstName400 LastName400 associate 75199.54023932017
+FirstName401 LastName401 assistant 63626.16195642963
+FirstName402 LastName402 full 75777.50208067468
+FirstName403 LastName403 assistant 56996.25441780047
+FirstName404 LastName404 associate 92238.14038382193
+FirstName405 LastName405 full 121245.00326547163
+FirstName406 LastName406 assistant 76124.10088117073
+FirstName407 LastName407 associate 63609.478954428414
+FirstName408 LastName408 assistant 68556.77499999297
+FirstName409 LastName409 full 103438.17434526702
+FirstName410 LastName410 assistant 55632.719462925124
+FirstName411 LastName411 assistant 68395.22296775423
+FirstName412 LastName412 full 109300.23079891433
+FirstName413 LastName413 assistant 63969.75368667514
+FirstName414 LastName414 assistant 78008.03887097
+FirstName415 LastName415 associate 64683.701764624166
+FirstName416 LastName416 full 120208.60572195299
+FirstName417 LastName417 associate 103028.01100452775
+FirstName418 LastName418 assistant 79308.68918999807
+FirstName419 LastName419 full 114574.32566667421
+FirstName420 LastName420 associate 89260.66048769353
+FirstName421 LastName421 assistant 66928.75194295438
+FirstName422 LastName422 associate 93630.28957207114
+FirstName423 LastName423 associate 80617.08899709149
+FirstName424 LastName424 associate 63677.146373346965
+FirstName425 LastName425 assistant 61057.40362140283
+FirstName426 LastName426 full 92426.29604682402
+FirstName427 LastName427 assistant 59529.626730303266
+FirstName428 LastName428 full 101541.12792987483
+FirstName429 LastName429 full 79171.26843593323
+FirstName430 LastName430 associate 66608.43560025177
+FirstName431 LastName431 assistant 58899.995527735264
+FirstName432 LastName432 full 115885.15003729315
+FirstName433 LastName433 assistant 73076.23683983208
+FirstName434 LastName434 assistant 70745.66125883657
+FirstName435 LastName435 associate 103700.4549443241
+FirstName436 LastName436 full 114100.55136367842
+FirstName437 LastName437 associate 103437.58456653563
+FirstName438 LastName438 associate 107107.81548978794
+FirstName439 LastName439 assistant 60929.35895759902
+FirstName440 LastName440 full 81929.8558821734
+FirstName441 LastName441 assistant 74646.65886703225
+FirstName442 LastName442 full 88164.84096813205
+FirstName443 LastName443 full 83260.87919679204
+FirstName444 LastName444 full 123715.41183461962
+FirstName445 LastName445 associate 86164.52988669155
+FirstName446 LastName446 full 77758.65090913605
+FirstName447 LastName447 assistant 60030.78958873267
+FirstName448 LastName448 associate 80399.92166184624
+FirstName449 LastName449 full 120042.79370584316
+FirstName450 LastName450 associate 71856.89731768999
+FirstName451 LastName451 full 88110.86534996469
+FirstName452 LastName452 associate 66236.48502220168
+FirstName453 LastName453 associate 94022.78172925743
+FirstName454 LastName454 associate 64129.874965485746
+FirstName455 LastName455 full 100901.85978693084
+FirstName456 LastName456 assistant 61682.2393501655
+FirstName457 LastName457 assistant 77257.86334519237
+FirstName458 LastName458 full 100471.48391863616
+FirstName459 LastName459 assistant 66143.26950634869
+FirstName460 LastName460 full 93358.70529106447
+FirstName461 LastName461 assistant 63718.65284329615
+FirstName462 LastName462 full 120911.83099934761
+FirstName463 LastName463 associate 70914.35575791528
+FirstName464 LastName464 full 100251.20699617764
+FirstName465 LastName465 associate 96374.44682773435
+FirstName466 LastName466 assistant 78170.68595426496
+FirstName467 LastName467 full 84601.97880174457
+FirstName468 LastName468 associate 109840.98391629642
+FirstName469 LastName469 full 98572.69890785753
+FirstName470 LastName470 full 96434.32131577712
+FirstName471 LastName471 full 103993.59999123887
+FirstName472 LastName472 assistant 59723.80394905307
+FirstName473 LastName473 associate 102747.17862491304
+FirstName474 LastName474 full 105300.22965429362
+FirstName475 LastName475 assistant 60748.421405064095
+FirstName476 LastName476 associate 108471.29567761043
+FirstName477 LastName477 assistant 70252.08844631407
+FirstName478 LastName478 full 95138.09209378081
+FirstName479 LastName479 full 95498.8342204303
+FirstName480 LastName480 full 129602.6409066036
+FirstName481 LastName481 assistant 67441.0422940728
+FirstName482 LastName482 assistant 51469.22315580507
+FirstName483 LastName483 associate 69301.80020078715
+FirstName484 LastName484 associate 98830.17245274811
+FirstName485 LastName485 assistant 61934.95880275742
+FirstName486 LastName486 associate 99755.06003747601
+FirstName487 LastName487 full 128005.81987205429
+FirstName488 LastName488 assistant 65353.59763808224
+FirstName489 LastName489 associate 84675.6232840726
+FirstName490 LastName490 full 125941.41130036293
+FirstName491 LastName491 assistant 61504.512950425225
+FirstName492 LastName492 associate 105712.77783015152
+FirstName493 LastName493 full 107964.86410404547
+FirstName494 LastName494 assistant 53768.737910463075
+FirstName495 LastName495 full 82886.2465375747
+FirstName496 LastName496 assistant 78718.6723975231
+FirstName497 LastName497 associate 78805.48435597568
+FirstName498 LastName498 assistant 70280.94756978306
+FirstName499 LastName499 associate 84446.80904360578
+FirstName500 LastName500 assistant 69639.4733970345
+FirstName501 LastName501 assistant 59925.29377822935
+FirstName502 LastName502 full 122262.60069943697
+FirstName503 LastName503 full 101463.1028650825
+FirstName504 LastName504 full 84884.31546240648
+FirstName505 LastName505 assistant 77897.71539331164
+FirstName506 LastName506 associate 106439.28717548917
+FirstName507 LastName507 assistant 79359.67445741032
+FirstName508 LastName508 associate 102788.56464110222
+FirstName509 LastName509 associate 60296.06226660192
+FirstName510 LastName510 assistant 59414.112644944136
+FirstName511 LastName511 full 105601.95715231
+FirstName512 LastName512 full 119143.5140813062
+FirstName513 LastName513 full 119341.2491643177
+FirstName514 LastName514 associate 108357.09367702156
+FirstName515 LastName515 assistant 75006.09555168543
+FirstName516 LastName516 associate 73729.62681674483
+FirstName517 LastName517 assistant 58425.61794885945
+FirstName518 LastName518 full 75828.86113456143
+FirstName519 LastName519 full 126329.57461130254
+FirstName520 LastName520 assistant 79260.43357281179
+FirstName521 LastName521 associate 82877.36965587226
+FirstName522 LastName522 associate 66021.10085957956
+FirstName523 LastName523 associate 62359.52595433746
+FirstName524 LastName524 associate 104211.78519696566
+FirstName525 LastName525 associate 60053.913520429924
+FirstName526 LastName526 full 87031.9417458448
+FirstName527 LastName527 associate 76345.35207840269
+FirstName528 LastName528 assistant 61392.71221540644
+FirstName529 LastName529 full 91783.85181948707
+FirstName530 LastName530 assistant 66134.66758333452
+FirstName531 LastName531 full 106649.3095496047
+FirstName532 LastName532 full 113227.8319991978
+FirstName533 LastName533 assistant 71425.40057691597
+FirstName534 LastName534 associate 63017.494125089324
+FirstName535 LastName535 full 100367.2990038057
+FirstName536 LastName536 full 129485.45267009317
+FirstName537 LastName537 associate 96126.98827
+FirstName538 LastName538 associate 102027.14522289997
+FirstName539 LastName539 associate 71361.32701401388
+FirstName540 LastName540 associate 88980.00796988758
+FirstName541 LastName541 associate 72463.49352081052
+FirstName542 LastName542 full 120881.56579990429
+FirstName543 LastName543 associate 65897.58526929784
+FirstName544 LastName544 associate 64511.6516352068
+FirstName545 LastName545 associate 76777.18744272797
+FirstName546 LastName546 full 83405.36219978215
+FirstName547 LastName547 assistant 79906.91647487132
+FirstName548 LastName548 associate 90076.97745629498
+FirstName549 LastName549 assistant 75882.97477467217
+FirstName550 LastName550 assistant 77048.61275289427
+FirstName551 LastName551 assistant 76315.27830811821
+FirstName552 LastName552 full 77007.5734440687
+FirstName553 LastName553 assistant 54166.512571261046
+FirstName554 LastName554 associate 60594.59386062611
+FirstName555 LastName555 assistant 60138.098483105074
+FirstName556 LastName556 full 94163.04917453343
+FirstName557 LastName557 associate 82529.10243404446
+FirstName558 LastName558 assistant 71829.54173694807
+FirstName559 LastName559 associate 62462.2022680302
+FirstName560 LastName560 full 90698.76388079436
+FirstName561 LastName561 full 126095.73746509598
+FirstName562 LastName562 associate 92840.01487044475
+FirstName563 LastName563 full 123294.14450598507
+FirstName564 LastName564 full 117260.91852815272
+FirstName565 LastName565 full 92969.80395203154
+FirstName566 LastName566 full 105083.38029093995
+FirstName567 LastName567 associate 74904.40680608865
+FirstName568 LastName568 assistant 55014.95052062168
+FirstName569 LastName569 full 105438.49849959047
+FirstName570 LastName570 associate 69809.66277928611
+FirstName571 LastName571 assistant 52274.50011375082
+FirstName572 LastName572 assistant 50322.912903551805
+FirstName573 LastName573 full 78755.85411538459
+FirstName574 LastName574 full 83720.24179107553
+FirstName575 LastName575 full 100077.40266050061
+FirstName576 LastName576 assistant 77481.70902882898
+FirstName577 LastName577 full 101200.07710255953
+FirstName578 LastName578 associate 67748.12978283346
+FirstName579 LastName579 full 92510.2025412301
+FirstName580 LastName580 associate 98531.07466425978
+FirstName581 LastName581 associate 106343.64612124977
+FirstName582 LastName582 full 94210.42067618837
+FirstName583 LastName583 full 76624.08168120313
+FirstName584 LastName584 full 100005.62551252324
+FirstName585 LastName585 associate 68046.1174553507
+FirstName586 LastName586 assistant 76994.48847845495
+FirstName587 LastName587 assistant 78829.2443445748
+FirstName588 LastName588 full 110042.51562075716
+FirstName589 LastName589 associate 75319.4183861662
+FirstName590 LastName590 associate 82324.6510374549
+FirstName591 LastName591 full 124362.14830910039
+FirstName592 LastName592 associate 81576.62985874739
+FirstName593 LastName593 associate 98378.37449503853
+FirstName594 LastName594 assistant 63312.57245690196
+FirstName595 LastName595 associate 100383.5356530559
+FirstName596 LastName596 assistant 78378.46126055036
+FirstName597 LastName597 full 119400.33075089882
+FirstName598 LastName598 assistant 64981.5657234137
+FirstName599 LastName599 full 113470.18635595919
+FirstName600 LastName600 assistant 50394.220517944384
+FirstName601 LastName601 full 111798.54642904187
+FirstName602 LastName602 associate 66471.9608775912
+FirstName603 LastName603 assistant 66002.61311637032
+FirstName604 LastName604 assistant 69061.55816577408
+FirstName605 LastName605 assistant 60114.43456465531
+FirstName606 LastName606 associate 89467.78774245389
+FirstName607 LastName607 full 97897.50721169062
+FirstName608 LastName608 assistant 77882.59909806684
+FirstName609 LastName609 full 90499.13604195666
+FirstName610 LastName610 associate 94575.07616596173
+FirstName611 LastName611 assistant 66430.36939884545
+FirstName612 LastName612 assistant 68197.99656261335
+FirstName613 LastName613 full 118328.53327505288
+FirstName614 LastName614 assistant 73077.23453134601
+FirstName615 LastName615 assistant 69260.48989481799
+FirstName616 LastName616 associate 73671.41065895863
+FirstName617 LastName617 assistant 71405.93926908601
+FirstName618 LastName618 assistant 55931.39985750936
+FirstName619 LastName619 full 118964.42987286541
+FirstName620 LastName620 associate 64380.818235270766
+FirstName621 LastName621 associate 98931.83107192461
+FirstName622 LastName622 assistant 53943.93498720172
+FirstName623 LastName623 assistant 51401.11282122362
+FirstName624 LastName624 assistant 66644.90980850137
+FirstName625 LastName625 associate 96375.17306573241
+FirstName626 LastName626 associate 78454.83664628083
+FirstName627 LastName627 assistant 50695.11246336354
+FirstName628 LastName628 full 102570.3509779459
+FirstName629 LastName629 full 128162.21462289883
+FirstName630 LastName630 full 102779.72937929085
+FirstName631 LastName631 full 104222.28233497917
+FirstName632 LastName632 assistant 65219.05695563879
+FirstName633 LastName633 assistant 65690.65856683151
+FirstName634 LastName634 full 117840.98710628098
+FirstName635 LastName635 full 126009.88594472171
+FirstName636 LastName636 assistant 60113.29674206526
+FirstName637 LastName637 full 98224.76480608108
+FirstName638 LastName638 assistant 58452.84042872452
+FirstName639 LastName639 associate 88677.04740853584
+FirstName640 LastName640 associate 67491.95584612846
+FirstName641 LastName641 associate 101619.746178009
+FirstName642 LastName642 associate 81532.2036268398
+FirstName643 LastName643 assistant 74698.91782484567
+FirstName644 LastName644 assistant 65812.12220950666
+FirstName645 LastName645 assistant 67180.97016703941
+FirstName646 LastName646 associate 103530.32188635421
+FirstName647 LastName647 full 89587.13776732309
+FirstName648 LastName648 assistant 68059.24010625546
+FirstName649 LastName649 full 120886.27907029072
+FirstName650 LastName650 associate 70733.49544723796
+FirstName651 LastName651 assistant 55854.96777547721
+FirstName652 LastName652 assistant 74756.9943579987
+FirstName653 LastName653 full 86568.6848822019
+FirstName654 LastName654 assistant 58459.04105777428
+FirstName655 LastName655 assistant 66233.7241895679
+FirstName656 LastName656 full 83409.51022555551
+FirstName657 LastName657 assistant 61505.93853347855
+FirstName658 LastName658 full 115927.29884137987
+FirstName659 LastName659 assistant 71386.24129561058
+FirstName660 LastName660 full 113024.44093490072
+FirstName661 LastName661 associate 63428.56274887454
+FirstName662 LastName662 associate 77005.033170121
+FirstName663 LastName663 full 80453.38300529968
+FirstName664 LastName664 assistant 52534.84191334275
+FirstName665 LastName665 full 78146.68499491549
+FirstName666 LastName666 associate 63474.83976835817
+FirstName667 LastName667 associate 69249.88998972907
+FirstName668 LastName668 assistant 55350.64245667265
+FirstName669 LastName669 assistant 63907.05877250734
+FirstName670 LastName670 associate 61237.50462044519
+FirstName671 LastName671 associate 85596.99389975212
+FirstName672 LastName672 full 116154.28282181572
+FirstName673 LastName673 assistant 65520.08093441992
+FirstName674 LastName674 associate 98604.95478904549
+FirstName675 LastName675 associate 107683.50416294471
+FirstName676 LastName676 associate 76185.72344787637
+FirstName677 LastName677 full 102642.10595589994
+FirstName678 LastName678 assistant 63249.27729172622
+FirstName679 LastName679 assistant 50895.891734525416
+FirstName680 LastName680 associate 79807.98780619973
+FirstName681 LastName681 associate 94488.45161905383
+FirstName682 LastName682 full 126512.54861511473
+FirstName683 LastName683 assistant 56924.023754787704
+FirstName684 LastName684 associate 87237.94263712621
+FirstName685 LastName685 assistant 60759.025099686834
+FirstName686 LastName686 assistant 77656.42542522449
+FirstName687 LastName687 assistant 67263.68184013202
+FirstName688 LastName688 assistant 57961.1093155158
+FirstName689 LastName689 associate 72982.03908451741
+FirstName690 LastName690 assistant 65068.73277015047
+FirstName691 LastName691 full 123163.04645589844
+FirstName692 LastName692 associate 86893.16354112662
+FirstName693 LastName693 associate 65579.90211999055
+FirstName694 LastName694 associate 97512.29755630504
+FirstName695 LastName695 assistant 62876.96132385753
+FirstName696 LastName696 full 97931.20095631259
+FirstName697 LastName697 full 129072.75575925504
+FirstName698 LastName698 associate 84671.62140269476
+FirstName699 LastName699 full 81273.40511854223
+FirstName700 LastName700 full 84985.74415058589
+FirstName701 LastName701 full 111064.34146938098
+FirstName702 LastName702 associate 61120.27701783101
+FirstName703 LastName703 associate 65345.54969065732
+FirstName704 LastName704 assistant 74849.1563022371
+FirstName705 LastName705 full 92364.83551728088
+FirstName706 LastName706 assistant 68849.95557645407
+FirstName707 LastName707 full 113416.30721963017
+FirstName708 LastName708 associate 107177.30074809384
+FirstName709 LastName709 associate 68674.7590495228
+FirstName710 LastName710 associate 66551.42218470988
+FirstName711 LastName711 associate 106402.69051254785
+FirstName712 LastName712 associate 71992.3447423609
+FirstName713 LastName713 assistant 75701.61222366896
+FirstName714 LastName714 associate 100372.68064815675
+FirstName715 LastName715 full 75560.62776423561
+FirstName716 LastName716 full 91038.67885302576
+FirstName717 LastName717 assistant 70280.89785674954
+FirstName718 LastName718 full 95944.2933923898
+FirstName719 LastName719 associate 98805.12423376935
+FirstName720 LastName720 assistant 57655.16328537862
+FirstName721 LastName721 full 81069.33396450747
+FirstName722 LastName722 assistant 79411.5212561805
+FirstName723 LastName723 associate 90119.3804431051
+FirstName724 LastName724 full 108465.26711796856
+FirstName725 LastName725 full 81034.31101061785
+FirstName726 LastName726 assistant 56971.27242616157
+FirstName727 LastName727 associate 87491.33863314544
+FirstName728 LastName728 associate 69771.8986393504
+FirstName729 LastName729 full 78473.52438196781
+FirstName730 LastName730 assistant 76751.35263842274
+FirstName731 LastName731 full 112665.13495648783
+FirstName732 LastName732 full 81073.85412474175
+FirstName733 LastName733 assistant 65881.21990188182
+FirstName734 LastName734 assistant 70254.84132406402
+FirstName735 LastName735 full 119339.72821555847
+FirstName736 LastName736 assistant 56225.821660313
+FirstName737 LastName737 full 79279.70600932014
+FirstName738 LastName738 full 86319.7624473118
+FirstName739 LastName739 assistant 51496.572653464464
+FirstName740 LastName740 associate 73508.23986548152
+FirstName741 LastName741 associate 101889.68932211943
+FirstName742 LastName742 full 87600.8049351102
+FirstName743 LastName743 full 80199.83684828269
+FirstName744 LastName744 full 81937.70765014042
+FirstName745 LastName745 associate 90169.36717832071
+FirstName746 LastName746 full 103080.18436646523
+FirstName747 LastName747 associate 107003.63927396046
+FirstName748 LastName748 assistant 57293.2844151484
+FirstName749 LastName749 assistant 67749.81661766396
+FirstName750 LastName750 full 79142.54091629805
+FirstName751 LastName751 full 101532.99428936743
+FirstName752 LastName752 full 107438.45809197507
+FirstName753 LastName753 associate 70098.14418175748
+FirstName754 LastName754 assistant 70995.65213530883
+FirstName755 LastName755 assistant 60705.08842479087
+FirstName756 LastName756 associate 99900.11300025418
+FirstName757 LastName757 full 95564.83424287585
+FirstName758 LastName758 associate 100781.58110704606
+FirstName759 LastName759 assistant 73174.23549137848
+FirstName760 LastName760 full 125089.0003488512
+FirstName761 LastName761 associate 79584.69950301704
+FirstName762 LastName762 full 87939.10036622781
+FirstName763 LastName763 full 92097.86490145657
+FirstName764 LastName764 assistant 57536.358193858316
+FirstName765 LastName765 associate 71622.93877577406
+FirstName766 LastName766 associate 78052.56687582511
+FirstName767 LastName767 associate 105551.83587548576
+FirstName768 LastName768 associate 69932.81056463595
+FirstName769 LastName769 assistant 74187.7928540151
+FirstName770 LastName770 assistant 73588.19173074688
+FirstName771 LastName771 associate 85689.45442090768
+FirstName772 LastName772 assistant 77150.13959192965
+FirstName773 LastName773 associate 94270.05249821683
+FirstName774 LastName774 assistant 63473.83860420571
+FirstName775 LastName775 associate 64398.38740629404
+FirstName776 LastName776 associate 71931.71608557952
+FirstName777 LastName777 full 84389.8403694681
+FirstName778 LastName778 associate 97486.98471992477
+FirstName779 LastName779 associate 60560.73169436675
+FirstName780 LastName780 associate 84485.6534160954
+FirstName781 LastName781 full 118589.31968476946
+FirstName782 LastName782 assistant 58706.72613720794
+FirstName783 LastName783 full 76537.75102699333
+FirstName784 LastName784 full 109238.1737318691
+FirstName785 LastName785 full 107659.220970874
+FirstName786 LastName786 associate 67401.4480226362
+FirstName787 LastName787 assistant 57718.08918487438
+FirstName788 LastName788 associate 65490.58476992052
+FirstName789 LastName789 associate 99667.14266246921
+FirstName790 LastName790 full 121348.10021611236
+FirstName791 LastName791 assistant 79196.81825902255
+FirstName792 LastName792 associate 91727.66060971939
+FirstName793 LastName793 full 112209.69725350731
+FirstName794 LastName794 full 97339.99728790998
+FirstName795 LastName795 assistant 53914.32379498333
+FirstName796 LastName796 associate 69694.93803568445
+FirstName797 LastName797 associate 100569.11034806834
+FirstName798 LastName798 full 86932.76197722247
+FirstName799 LastName799 associate 102880.82008475307
+FirstName800 LastName800 associate 79542.49086159174
+FirstName801 LastName801 full 126555.77922985682
+FirstName802 LastName802 full 102936.90233460313
+FirstName803 LastName803 full 96508.73564366359
+FirstName804 LastName804 assistant 78457.51921436243
+FirstName805 LastName805 associate 66252.47436927972
+FirstName806 LastName806 full 113968.1816793012
+FirstName807 LastName807 assistant 55163.22419933234
+FirstName808 LastName808 associate 96633.25066544373
+FirstName809 LastName809 assistant 51609.59830784655
+FirstName810 LastName810 full 76688.90901041146
+FirstName811 LastName811 associate 63984.47212454867
+FirstName812 LastName812 assistant 74488.48544795744
+FirstName813 LastName813 full 102762.80052273558
+FirstName814 LastName814 full 127788.93346489785
+FirstName815 LastName815 associate 61086.677346340795
+FirstName816 LastName816 assistant 61210.38300096421
+FirstName817 LastName817 associate 80974.19296284046
+FirstName818 LastName818 assistant 66780.85759931253
+FirstName819 LastName819 assistant 60725.82554473878
+FirstName820 LastName820 full 99030.43845690548
+FirstName821 LastName821 associate 65831.59200677351
+FirstName822 LastName822 associate 97551.28876924657
+FirstName823 LastName823 assistant 76217.0361907642
+FirstName824 LastName824 full 119062.97451657406
+FirstName825 LastName825 full 103603.6873731231
+FirstName826 LastName826 associate 108952.36575847637
+FirstName827 LastName827 assistant 58634.880436615276
+FirstName828 LastName828 associate 90676.05842473364
+FirstName829 LastName829 full 102076.79864791686
+FirstName830 LastName830 associate 105993.45934246716
+FirstName831 LastName831 full 102396.51524207852
+FirstName832 LastName832 full 98701.95485560478
+FirstName833 LastName833 full 109231.15257107632
+FirstName834 LastName834 associate 67340.81768979214
+FirstName835 LastName835 assistant 51765.04172161266
+FirstName836 LastName836 assistant 73452.66632231501
+FirstName837 LastName837 full 78604.29909358584
+FirstName838 LastName838 associate 105504.40599482694
+FirstName839 LastName839 full 107842.07815554462
+FirstName840 LastName840 assistant 65496.75394923977
+FirstName841 LastName841 assistant 58469.39454349118
+FirstName842 LastName842 associate 82110.10105116616
+FirstName843 LastName843 full 83146.22795157877
+FirstName844 LastName844 associate 84166.27968614963
+FirstName845 LastName845 assistant 73246.99827846981
+FirstName846 LastName846 full 99697.50112708518
+FirstName847 LastName847 full 109619.80455647875
+FirstName848 LastName848 assistant 59358.07988244364
+FirstName849 LastName849 associate 68407.05572225952
+FirstName850 LastName850 assistant 70900.7450907218
+FirstName851 LastName851 associate 106415.37945984144
+FirstName852 LastName852 assistant 60299.21400050962
+FirstName853 LastName853 assistant 56991.97692999928
+FirstName854 LastName854 full 121977.43167059483
+FirstName855 LastName855 full 92782.9672831664
+FirstName856 LastName856 full 129355.1154737196
+FirstName857 LastName857 full 113527.04652924006
+FirstName858 LastName858 associate 60105.30789960097
+FirstName859 LastName859 full 86785.586995123
+FirstName860 LastName860 full 77825.79758366194
+FirstName861 LastName861 assistant 78871.64303966996
+FirstName862 LastName862 associate 83405.75433005986
+FirstName863 LastName863 full 96013.96484778568
+FirstName864 LastName864 associate 100235.26444552973
+FirstName865 LastName865 full 75475.8840817153
+FirstName866 LastName866 full 124383.84054246546
+FirstName867 LastName867 associate 72584.24815032133
+FirstName868 LastName868 associate 102347.83314297833
+FirstName869 LastName869 associate 69847.76446477798
+FirstName870 LastName870 assistant 71700.41109154827
+FirstName871 LastName871 full 123446.0645078371
+FirstName872 LastName872 assistant 50986.44965936445
+FirstName873 LastName873 full 113682.06986083699
+FirstName874 LastName874 full 99051.07788343026
+FirstName875 LastName875 assistant 69406.92441036571
+FirstName876 LastName876 full 75453.47541026102
+FirstName877 LastName877 assistant 72530.7808691816
+FirstName878 LastName878 associate 76747.10385931261
+FirstName879 LastName879 full 122012.50044941783
+FirstName880 LastName880 assistant 54064.382460641296
+FirstName881 LastName881 associate 108284.71670077984
+FirstName882 LastName882 associate 91624.32742941211
+FirstName883 LastName883 assistant 72152.46568650394
+FirstName884 LastName884 associate 102259.01004816697
+FirstName885 LastName885 full 99963.06284854602
+FirstName886 LastName886 full 81754.69928893527
+FirstName887 LastName887 assistant 67357.94614513377
+FirstName888 LastName888 assistant 70957.96319196452
+FirstName889 LastName889 associate 82656.14314920684
+FirstName890 LastName890 full 117820.54270174114
+FirstName891 LastName891 assistant 77288.52586686399
+FirstName892 LastName892 associate 94814.53280635786
+FirstName893 LastName893 associate 92551.9210218057
+FirstName894 LastName894 assistant 78878.93359932359
+FirstName895 LastName895 associate 61879.15686320432
+FirstName896 LastName896 assistant 68542.23752684367
+FirstName897 LastName897 associate 86047.92700248366
+FirstName898 LastName898 associate 67820.59827110649
+FirstName899 LastName899 associate 77147.3455760961
+FirstName900 LastName900 assistant 62883.77259075956
+FirstName901 LastName901 assistant 58159.48589350294
+FirstName902 LastName902 assistant 60970.808881401914
+FirstName903 LastName903 full 79946.11533241127
+FirstName904 LastName904 full 77183.0769217332
+FirstName905 LastName905 full 89353.27254314547
+FirstName906 LastName906 full 108803.8823955548
+FirstName907 LastName907 assistant 71464.97158768361
+FirstName908 LastName908 assistant 78397.753953456
+FirstName909 LastName909 assistant 78924.73085716175
+FirstName910 LastName910 full 85323.03512790878
+FirstName911 LastName911 associate 101028.08462406421
+FirstName912 LastName912 associate 87665.51828091455
+FirstName913 LastName913 assistant 75682.75278302489
+FirstName914 LastName914 full 104155.35166073128
+FirstName915 LastName915 associate 76800.7401719861
+FirstName916 LastName916 assistant 55765.820767353536
+FirstName917 LastName917 assistant 73804.12053914674
+FirstName918 LastName918 associate 108319.40256959853
+FirstName919 LastName919 full 107247.84358793728
+FirstName920 LastName920 assistant 54226.66136011264
+FirstName921 LastName921 associate 97580.57002217948
+FirstName922 LastName922 full 110628.21237194206
+FirstName923 LastName923 assistant 56698.40227952202
+FirstName924 LastName924 associate 68292.58104909494
+FirstName925 LastName925 full 75613.96937037651
+FirstName926 LastName926 associate 79410.07590194806
+FirstName927 LastName927 associate 72629.20640440658
+FirstName928 LastName928 full 95813.30052399494
+FirstName929 LastName929 assistant 54282.04402210327
+FirstName930 LastName930 assistant 58974.43618398161
+FirstName931 LastName931 assistant 68777.95568076843
+FirstName932 LastName932 associate 81930.95449530678
+FirstName933 LastName933 associate 79354.60543323467
+FirstName934 LastName934 full 96103.22400305416
+FirstName935 LastName935 full 81668.12646770867
+FirstName936 LastName936 full 96548.38744617294
+FirstName937 LastName937 associate 73928.93839941776
+FirstName938 LastName938 assistant 64988.89160727828
+FirstName939 LastName939 assistant 64510.106969041895
+FirstName940 LastName940 assistant 70199.4096320399
+FirstName941 LastName941 associate 90470.9823329544
+FirstName942 LastName942 associate 77598.59715813141
+FirstName943 LastName943 assistant 51503.97414973213
+FirstName944 LastName944 associate 63324.14049685768
+FirstName945 LastName945 assistant 52476.844895798575
+FirstName946 LastName946 full 98375.29164610385
+FirstName947 LastName947 associate 76493.84513649624
+FirstName948 LastName948 associate 92435.79101617461
+FirstName949 LastName949 full 88788.90001862243
+FirstName950 LastName950 associate 60698.91585343214
+FirstName951 LastName951 associate 73193.90863633154
+FirstName952 LastName952 full 75620.51809419613
+FirstName953 LastName953 assistant 67676.02180569016
+FirstName954 LastName954 associate 98331.59920125839
+FirstName955 LastName955 full 82460.18765531879
+FirstName956 LastName956 assistant 58630.278420869254
+FirstName957 LastName957 assistant 74012.52176924152
+FirstName958 LastName958 full 96709.08564504763
+FirstName959 LastName959 assistant 60682.52708457765
+FirstName960 LastName960 full 117669.09451922419
+FirstName961 LastName961 full 113352.48746127085
+FirstName962 LastName962 full 100608.64381155407
+FirstName963 LastName963 assistant 67855.51779389537
+FirstName964 LastName964 full 85402.00267055194
+FirstName965 LastName965 full 89510.14115724516
+FirstName966 LastName966 assistant 63029.923292962085
+FirstName967 LastName967 full 129064.39898284596
+FirstName968 LastName968 associate 101098.02402475273
+FirstName969 LastName969 associate 96982.45541147813
+FirstName970 LastName970 assistant 59775.76208161612
+FirstName971 LastName971 assistant 60581.26131763869
+FirstName972 LastName972 assistant 54920.15508761041
+FirstName973 LastName973 associate 101365.50963844474
+FirstName974 LastName974 full 115050.25268103878
+FirstName975 LastName975 full 116167.57371307813
+FirstName976 LastName976 full 116214.46357199474
+FirstName977 LastName977 full 95287.37815219782
+FirstName978 LastName978 assistant 50182.20578412271
+FirstName979 LastName979 assistant 70118.93512491396
+FirstName980 LastName980 assistant 58252.16806391095
+FirstName981 LastName981 full 79956.63437320339
+FirstName982 LastName982 full 124265.59976500546
+FirstName983 LastName983 assistant 73419.3926075544
+FirstName984 LastName984 assistant 58235.97154494429
+FirstName985 LastName985 assistant 57799.29343463947
+FirstName986 LastName986 full 123984.25136297633
+FirstName987 LastName987 assistant 51177.07294938998
+FirstName988 LastName988 associate 104032.52699304845
+FirstName989 LastName989 associate 78122.75553508705
+FirstName990 LastName990 full 79311.61260259451
+FirstName991 LastName991 assistant 64982.57856917922
+FirstName992 LastName992 associate 83209.31731786666
+FirstName993 LastName993 assistant 53875.98501689119
+FirstName994 LastName994 full 93662.92015303523
+FirstName995 LastName995 associate 71386.50902926427
+FirstName996 LastName996 assistant 55467.76990285139
+FirstName997 LastName997 associate 86500.87577392651
+FirstName998 LastName998 full 78643.38054425614
+FirstName999 LastName999 associate 63802.17097847817
+FirstName1000 LastName1000 assistant 71667.11129958087
