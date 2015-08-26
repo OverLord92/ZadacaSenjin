@@ -1,6 +1,6 @@
 package PomocneKlase;
 
-public abstract class GeometricObject {
+public abstract class GeometricObject implements Cloneable {
 	private String color = "white";
 	private boolean filled;
 	private java.util.Date dateCreated;
@@ -46,10 +46,10 @@ public abstract class GeometricObject {
 	public java.util.Date getDateCreated() {
 		return dateCreated;
 	}
-	
+
 	/** Abstraktna metoda za povrsinu */
 	public abstract double getArea();
-	
+
 	/** Abstraktna metoda za obim */
 	public abstract double getPerimeter();
 
@@ -57,5 +57,12 @@ public abstract class GeometricObject {
 	public String toString() {
 		return "created on " + dateCreated + "\ncolor: " + color
 				+ " and filled: " + filled;
+	}
+
+	@Override
+	/** Override the protected clone method defined in
+	the Object class, and strengthen its accessibility */
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();
 	}
 }

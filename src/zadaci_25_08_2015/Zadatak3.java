@@ -8,7 +8,7 @@ import PomocneKlase.Circle;
  * the compareTo method to compare the circles on the basis of area. Write a
  * test class to find the larger of two instances of ComparableCircle objects.
  * 
- * Klase GeoemtricObject i Circle se nalaze u paketu pomocne klase
+ * Klase GeoemtricObject i Circle se nalaze u paketu PomocneKlase
  */
 
 
