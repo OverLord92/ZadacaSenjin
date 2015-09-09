@@ -11,46 +11,45 @@ public class Zadatak5 {
 	/** Test program */
 	public static void main(String[] args) {
 
-		int[] arr = { 4, 5, 99, 1, 98, 102, 2 };
+		int[] arr = { 104, 5, 99, 1, 98, 102, 2 };
 
-		System.out.println(max(arr));
+		System.out.println(max(arr));		
 
 	}
+	
 
-	/** Helper metoda koja poziva max metodu */
+	/** Helper Method which calls the main max */
 	public static int max(int[] arr) {
 
-		// provjeravamo da li je niz prazan
+		// check if the array in empty or equal to null
 		if (arr == null || arr.length == 0) {
-			// ako je je niz prazan metoda vraca -1
+			// if so the method returns -1
 			return -1;
 		} else {
+			// if the array is not empty the helper method calls the max method
 			return max(arr, arr.length - 1);
 		}
 	}
 
-	/** Metoda koja vraca najveci broj u nizu */
+	/** Method which returns the max value in an array */
 	public static int max(int[] arr, int index) {
 
-		// uzimamo prvi clan niza kao max
+		// we define the max value as the first element in the array
 		int max = arr[0];
 
-		// ukoliko je index < 0 metoda prekida
+		// base case - if the index < 0 the metho return the max value
 		if (index < 0) // base case
 			return max;
 
 		else {
-			// provjeravamo da li je broj na trenutnoj poziciji veci od max
+			// check if the element at the current index is greater than max
 			if (arr[index] > max) {
-				// ukoliko jest max dobija novu vrijesnost
 				max = arr[index];
 				return max;
-			} else {
-				// ponovno pozivanje metode
-				return max(arr, index - 1);
-			}
+			} 	
 		}
-
+		// call the method with the next index
+		return max(arr, index - 1);
 	}
 
 }

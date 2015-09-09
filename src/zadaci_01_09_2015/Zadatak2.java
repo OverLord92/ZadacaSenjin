@@ -10,22 +10,22 @@ package zadaci_01_09_2015;
 
 public class Zadatak2 {
 
-	/** Kratki test program */
+	/** Test program */
 	public static void main(String[] args) {
 
-		// printanje najveceg zajednicog sadrzaoca dva broja
+		// prints the gcd of two numbers
 		System.out.println(gcd(27, 72));
 
 	}
 
-	/** Metoda koja racuna najveci zajednicki sadrzalac dva broja */
+	/** Calculates gcd for numbers m and n */
 	public static int gcd(int m, int n) {
-		System.out.println(m + " " + n);
-		// ukoliko je broj m djeljiv sa n gcd je n
+		
+		// if the number m is divisible with n gcd is n
 		if (m % n == 0)
 			return n;
 		else {
-			// ako to nije slucaj ponovo pozivamo metodu gcd
+			// if this is not the case, call the method again with n and m % n
 			return gcd(n, m % n);
 		}
 	}

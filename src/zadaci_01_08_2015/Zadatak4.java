@@ -3,10 +3,9 @@ package zadaci_01_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati metodu koja izračunava zbir svih brojeva u cijelom broju. Koristite
- * sljedeći header: public static int sumDigits(long n). Na primjer, ako
- * pozovemo metodu i proslijedimo joj broj 234 (sumDigits(234)) metoda treba da
- * vrati 9. (2 + 3 + 4 = 9
+ * Write a program that sums the digits of an integer. 
+ * Method header:
+ * public static int sumDigits(long n)
  */
 
 public class Zadatak4 {
@@ -15,34 +14,37 @@ public class Zadatak4 {
 		Scanner input = new Scanner(System.in);
 		
 		
-		// korisnik unosi broj
+		// User enter number
 		System.out.print("Enter a number to sum its digits: ");
 		
-		// printanje rezultata
-		System.out.println("The sum of the digits is: " + sumDigits(input.nextInt()) + ".");
+		int userInput = input.nextInt();
+		int sumOfDigits = sumDigits(userInput);
+		
+		// print result
+		System.out.println("The sum of digits of number " + userInput + " is: " + sumOfDigits + ".");
 		
 		input.close();
 	}
 	
-	/** Metoda koja sabira cifre broja */
+	/** Sums the digits of an integer */
 	public static int sumDigits(long n){
 		
-		int sum = 0;
+		int sumOfDigits = 0;
 		int currentDigit;
 		
-		// pretvaramo broj u string
+		// parse the interer into a string
 		String number = n + "";
 		
-		// prolazimo kroz cifre broja i dodajemo ih sumi
+		// add the value of the digits to the sumw
 		for(int i = 0; i < number.length(); i++){
 			
-			// ASCII za od 0 do 9 su 48 do 57 sto znaci da
-			// je ASCII - 48 == broj koji je prestavljen
+			// ASCII representation for the digits from 0 to 9 is 48 to 57
+			// ASCII representation - 48 = actual digit;
 			currentDigit = (int)(number.charAt(i)) - 48;
-			sum += currentDigit;
+			sumOfDigits += currentDigit;
 		}
 		
-		return sum;
+		return sumOfDigits;
 	}
 
 

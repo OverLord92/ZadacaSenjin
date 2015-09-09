@@ -1,23 +1,23 @@
 package zadaci_01_08_2015;
 
 /**
- * Napisati program koji nasumično generiše cijeli broj između 1 i 12 te
- * ispisuje ime mjeseca za taj broj. (Januar za 1, Ferbruar za 2....)
+ * Write a program that generates a random number between 1 and 12, and prints
+ * the coresponding month name.
  */
 
 public class Zadatak1 {
 
 	public static void main(String[] args) {
 
-		// niz za imenima mjeseci sa "zero" na poziciji 0
-		String[] monthNames = { "Zero", "Januar", "Februar", "Mart", "April",
-				"Maj", "Juni", "Juli", "August", "Septembar", "Oktobar",
-				"Novembar", "Decembar" };
+		// array with month names
+		String[] monthNames = { null, "January", "February", "March", "April",
+				"May", "Jun", "July", "August", "September", "Oktober",
+				"November", "December" };
 
-		// generisanje nasumicnog broja
+		// generate a random number between 1 and 12 including 12
 		int month = (int) (1 + Math.random() * 12);
 
-		// printanje rezultata
+		// print result
 		System.out.println("The generatd  number is " + month
 				+ " and the coresponding month is " + monthNames[month] + ".");
 

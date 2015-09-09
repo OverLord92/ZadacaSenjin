@@ -15,13 +15,13 @@ public class Zadatak1 {
 
 	}
 
-	/** Printa cifre cijelog broja u obrnutom redoslijedu */
+	/** Prints the digits of a number in reverse */
 	public static void reverseDisplay(int value) {
 		if(value == 0) // base case
 			return;
 		else{
-			System.out.print(value % 10); // printamo zadnju cifru s desna
-			reverseDisplay(value / 10); // ponovno pozivanje metode
+			System.out.print(value % 10); // print the first number from the right
+			reverseDisplay(value / 10); // call the method again with (value / 10)
 		}
 	}
 

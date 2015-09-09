@@ -3,10 +3,9 @@ package zadaci_01_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati metodu koja ispisuje n x n matricu koristeći se sljedećim headerom:
- * public static void printMatrix(int n). Svaki element u matrici je ili 0 ili
- * 1, nasumično generisana. Napisati test program koji pita korisnika da unese
- * broj n te mu ispiše n x n matricu u konzoli.
+ * Write a method which prints a n x n matrix using the following header:
+ * public static void printMatrix(int n)
+ * Every element in the matrix is either 0 or 1 which is randomly choosen.
  */
 
 public class Zadatak5 {
@@ -14,29 +13,25 @@ public class Zadatak5 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// korisnik unosi velicinu matrice
+		// user enters matrix dimensions
 		System.out.print("  Enter the dimension of the matrix: ");
 
-		// printanje rzultata
+		// print result
 		printMatrix(input.nextInt());
 
 		input.close();
 
 	}
 
-	/** Metoda koja printa matricu dimenzije n */
+	/** Prints a randomly generated n x n matrix */
 	public static void printMatrix(int n) {
 
 		System.out.println();
 		for (int i = 0; i < n; i++) {
-
 			System.out.print("    ");
 			
-			for (int j = 0; j < n; j++) {
-
+			for (int j = 0; j < n; j++) 
 				System.out.print((int) (Math.random() * 2) + " ");
-
-			}
 
 			System.out.println();
 		}

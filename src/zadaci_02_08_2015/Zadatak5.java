@@ -3,10 +3,8 @@ package zadaci_02_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati program koji pita korisnika da unese cijeli broj te ispisuje
- * piramidu svih brojeva do tog broja. (Na primjer, ukoliko korisnik unese 7 vrh
- * piramide je broj 1, red ispod vrha piramide je 2 1 2, red ispod je 3 2 1 2 3,
- * red ispod 4 3 2 1 2 3 4 itd.)
+ * Write a program that asks the user to enter an integer and prints a pyramid
+ * of this numbers.
  */
 
 public class Zadatak5 {
@@ -14,24 +12,24 @@ public class Zadatak5 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// korisnik unosi dimenziju piramide
+		// user enters the dimension of the pyramid
 		System.out.print("Enter the dimension of the pyramid: ");
 		int number = input.nextInt();
 
-		// petlja za stampanje piramide
-		for (int i = 1; i <= number; i++) {
+		// print the pyramid
+		for (int currentRow = 1; currentRow <= number; currentRow++) {
 
-			// pelja za printanje praznina " "
-			for (int j = 1; i <= number - j; j++) {
+			// loop for printing the empty spaces
+			for (int j = 1; currentRow <= number - j; j++) {
 				System.out.print("  ");
 			}
 
-			// petlja za stampanje lijeve strane piramide
-			for (int k = 1; k < i; k++)
+			// print the left side of the pyramid
+			for (int k = 1; k < currentRow; k++)
 				System.out.print(k + " ");
 
-			// pelja za stampanje desne strane piramide
-			for (int l = i; l > 0; l--) {
+			// print the right side of the pyramid
+			for (int l = currentRow; l > 0; l--) {
 				System.out.print(l + " ");
 			}
 

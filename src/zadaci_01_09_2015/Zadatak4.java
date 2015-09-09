@@ -9,19 +9,19 @@ public class Zadatak4 {
 	/** Test program */
 	public static void main(String[] args) {
 
-		// printanje rezultata
+		// prints m(i) for numbers 1 to 10, including 10
 		for (int i = 1; i <= 10; i++)
 			System.out.printf("%2d\t%3.4f\n", i, recursiveM(i));
 	}
 
-	/** Metoda koja vraca zbir serije 1 / 3 + 2 / 5 + .. + num / (2 * num + 1) */
-	public static double recursiveM(int num) {
+	/** Calculates the series 1 / 3 + 2 / 5 + .. + number / (2 * number + 1) */
+	public static double recursiveM(int number) {
 
-		if (num == 1) // base case
+		if (number == 1) // base case
 			return 1.0 / 3;
 		else {
-			// rekurzivno pozivanje metode
-			return ((double)num / (2 * num + 1)) + recursiveM(num - 1);
+			// calculates current element and calls the method for the previous element
+			return ((double)number / (2 * number + 1)) + recursiveM(number - 1);
 		}
 	}
 

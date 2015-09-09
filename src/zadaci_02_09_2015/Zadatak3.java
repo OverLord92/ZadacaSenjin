@@ -16,26 +16,24 @@ public class Zadatak3 {
 
 	}
 
-	/** Metoda koja broji koliko se puta char a pojavljuje u stringu str */
+	/** Counts the occurrence of a char in the string */
 	public static int count(String str, char a) {
 
-		// brojac
 		int count = 0;
 
-		// ukoliko je duzina stringa == 0 metoda vraca brojac
-		if (str.length() == 0) // base case
+		// if the string.length is 0 the method returns the count
+		if (str.length() == 0)
 			return count;
 
-		// ako je string duzine 1 ili duzi ponovo pozivamo metodu sa subtringom
-		// koji iskljucuje zadnji karakter stringa
+		// if the string.length is 1 or greater the method continues
 		else {
-			
-			// provjeravamo da li je zadnji karakter stringa jednak charu a
-			if (a == str.charAt(str.length() - 1)){
-				// ako jest, povecavamo brojac za 1
+
+			// check if the last character of the string is equal to char a
+			if (a == str.charAt(str.length() - 1)) {
 				count++;
 			}
-			// ponovno pozivanje metode sa substringom
+			
+			// recursive call with the substring of the current string excluding the last character
 			str = str.substring(0, str.length() - 1);
 			return count + count(str, a);
 		}

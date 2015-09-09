@@ -3,54 +3,63 @@ package zadaci_01_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati program koji igra sa protivnikom rock-paper-scissors.
- * (papir-bunar-makaze ili tako nekako po naški) Program nasumično generiše
- * brojeve 0, 1 i 2 koji predstavljaju papir, bunar i makaze. Program pita
- * korisnika da unese 0, 1 ili 2 te mu ispisuje poruku da li je korisnik
- * pobijedio, da li je računar pobijedio ili je bilo neriješeno.
+ * Write a program wich plays rock-paper-scissort with the user. The program
+ * randomly generates numbers 0, 1 and 2 wich represent paper, rock, scissor
+ * .The program asks the user to enter 0, 1 or 2 and prints message with the
+ * winners name. 
  */
 
 public class Zadatak2 {
+	
+	public static final String[] SIGNS = { "Rock", "Paper", "Scissors" };
 
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
 
-		int program, user;
-		
-		// niz sa znakovima
-		String[] signs = {"Rock", "Paper", "Scissors"};
+		// generate the programs choice
+		int programChoice = (int) (Math.random() * 3);
 
-		// generisanje znaka koji ce program imati
-		program = (int) (Math.random() * 3);
+		printUserMenu();
 
-		// printanje uputstva za korisnika
-		System.out
-				.println("\n  You are playing rock-paper-scissors! Choose wisely.\n");
-		System.out.println("    *** 0 - rock ***" + "\n    *** 1 - paper ***"
-				+ "\n    *** 2 - scissors ***\n");
-
-		// unos korisnikovog izbora
+		// the user enters his/her choice
 		System.out.print("    Enter your guess: ");
-		user = input.nextInt();
+		int userChoice = input.nextInt();
+
+		printChoosenSigns(userChoice, programChoice);
 		
-		// printanje rezultata
-		System.out.println("\n    Your choice -> " + signs[user] + " : " + signs[program] + " <- choice of the program.\n");
-
-		if (user == program) {
-			System.out.println("    Draw.");
-		} else if (program == 0) {
-			System.out.println(user == 1 ? "    You won!" : "    You lost!");
-
-		} else if (program == 1) {
-			System.out.println(user == 2 ? "    You won!" : "    You lost!");
-
-		} else if (program == 2) {
-			System.out.println(user == 0 ? "    You won!" : "    You lost!");
-
-		}
+		printGameOutcome(userChoice, programChoice);
 
 		input.close();
+	}
+	
+	public static void printUserMenu(){
+		System.out.println("\n  You are playing rock-paper-scissors! Choose wisely.\n");
+		System.out.println("    *** 0 - rock ***" + 
+		"\n    *** 1 - paper ***" +
+		"\n    *** 2 - scissors ***\n");
+	}
+	
+	/** Prints the choosen signs */
+	public static void printChoosenSigns(int userChoice, int programChoice){
+		System.out.println("\n    Your choice -> " + SIGNS[userChoice] + " : "
+		+ SIGNS[programChoice] + " <- choice of the program.\n");
+	}
+	
+	/** Prints if the user wan, lost or draw. */
+	public static void printGameOutcome(int userChoice, int programChoice){
+			
+		if (userChoice == programChoice) {
+			System.out.println("    Draw.");
+		} else if (programChoice == 0) {
+			System.out.println(userChoice == 1 ? "    You won!" : "    You lost!");
+
+		} else if (programChoice == 1) {
+			System.out.println(userChoice == 2 ? "    You won!" : "    You lost!");
+
+		} else if (programChoice == 2) {
+			System.out.println(userChoice == 0 ? "    You won!" : "    You lost!");
 		}
+
+	}
 
 }

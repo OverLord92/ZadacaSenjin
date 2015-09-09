@@ -3,9 +3,8 @@ package zadaci_02_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati program koji pita korisnika da unese cijeli trocifreni broj te
- * provjerava da li je unijeti broj palindrom. Broj je palindrom ukoliko se čita
- * isto i sa lijeva na desno i sa desna na lijevo npr. 121, 131, itd.
+ * Write a program that asks the user to enter a three digit number and check if
+ * the entered number is a palindrome.
  */
 
 public class Zadatak1 {
@@ -13,18 +12,38 @@ public class Zadatak1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// korisnik unosi broj
-		System.out.print("Unsite trocifreni broj: ");
-		// smjestamo broj kao string
+		// user enter a three digit number
+		System.out.print("Ente a three digit integer: ");
 		String number = input.next();
 		
-		// printanje rezultata
-		if(number.charAt(0) == number.charAt(2))
-			System.out.println("The number is a palindrome.");
-		else
-			System.out.println("The number is not a palindrome.");
-		
+		// check if entered string is a number
+		if(!isNumber(number)){
+			System.out.println("Wrong input. Integer expected.");
+			System.exit(1);
+		}
+
+		// print result
+		System.out.println("The number "
+				+ (isPalindrome(number) ? "is a palindrome."
+						: " is not a palindrome."));
+
 		input.close();
+	}
+	
+	/** Checks if a string consists of only digits */
+	public static boolean isNumber(String number){
+		
+		for(int currentChar = 0; currentChar < number.length(); currentChar++)
+			if(!Character	.isDigit(number.charAt(currentChar)))
+				return false;
+		
+		return true;
+	}
+	
+
+	/** Checks if the number is a palindrome. Works only with tree digit numbers */
+	public static boolean isPalindrome(String number) {
+		return number.charAt(0) == number.charAt(2);
 	}
 
 }

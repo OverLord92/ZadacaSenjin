@@ -8,23 +8,23 @@ package zadaci_02_09_2015;
 
 public class Zadatak2 {
 
-	/** test program */
+	/** Test program */
 	public static void main(String[] args) {
 
 		reverseDisplay("probni String");
 
 	}
 
-	/** Printa karaktere stringa u obrnutom smjeru */
+	/** Prints the charactes of the string in reverse */
 	public static void reverseDisplay(String value) {
 
 		if (value.length() == 0) // base case
 			return;
 		else {
-			// printamo zadnji karakter stringa
+			// print the first character from rigth
 			System.out.print(value.charAt(value.length() - 1));
-			// pozivamo metodu sa substringom prethodnog stringa iskljucujuci
-			// zadnji karakter
+
+			// calling the method again with a substring of the previous string
 			value = value.substring(0, value.length() - 1);
 			reverseDisplay(value);
 		}

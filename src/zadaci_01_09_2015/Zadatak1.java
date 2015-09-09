@@ -12,29 +12,32 @@ public class Zadatak1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		int f0 = 0; // nulti clan niza
-		int f1 = 1; // prvi clan niza
+		int f0 = 0; // first number of fib array
+		int f1 = 1; // second number of fib array
 
-		// korisnik unosi index broja kojeg zeli racunati
-		System.out.print("Unesite broj: ");
+		// user enter the index of the fib number
+		System.out.print("Enter index: ");
 		int n = input.nextInt();
 		input.close();
 
-		// pocetna vrijednost fibonacijevog broja
+		// the start value of the fib number
 		int currentFib = 0;
 
-		// racunanje fibonacijevog broja na n-tom indexu
+		// calculating the fib number in the n-th position
 		for (int i = 2; i <= n; i++) {
-			// sabiramo dva prethodna clana niza
+			
+			// adding the two previous fib numbers
 			currentFib = f0 + f1;
-			// dodjveljivanje seljedeceg para vrijednosti za racunanje
+			
+			// f0 becomes f1 of the previous calculation
 			f0 = f1;
+			// f1 becomes the result of the previous calculation
 			f1 = currentFib;
 
 		}
 
-		// printanje rezultata
-		System.out.println("fib(" + n + ") je " + currentFib);
+		// print result
+		System.out.println("fib(" + n + ") is " + currentFib + ".");
 
 	}
 

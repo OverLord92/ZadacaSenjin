@@ -4,30 +4,29 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/** Napisati metodu koja vraća datum i trenutačno vrijeme */
+/** Write a method that return current date and time */
 
 public class Zadatak4 {
 
 	public static void main(String[] args) {
 
-		// printanje datuma i vremena
-		System.out.print("Datum i trenutno vrijeme: ");
-		System.out.println(getDateAndTime());
+		// print current date and time
+		System.out.print("Current date and time: " + getDateAndTime());
 
 	}
 
-	/** Metoda koja vraca string sa datumom i vremenom */
+	/** Returns a string with current date and time */
 	public static String getDateAndTime() {
 
 		String result = "";
 
-		// definisemo format datuma i vremena
+		// define a format for date and time
 		DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyy HH:mm:ss");
 		
-		// kreiramo novi Date objekat
+		// create a new date object
 		Date date = new Date();
 
-		// dodajemo datum i vrijeme u string
+		// adds the date and time to the result string
 		result += dateFormat.format(date);
 
 		return result;

@@ -15,18 +15,21 @@ public class Zadatak4 {
 
 	}
 	
-	/** Sabira cifre cijelog broja n */
-	public static int sumDigits(long n){
+	/** Adds the digits of an integer and returns the sum */
+	public static int sumDigits(long number){
+		
 		int sum = 0;
 		
-		if(n == 0) // base case
+		// if the number is zero the method returns the result
+		if(number == 0)
 			return sum;
 		
+		// else the method continues
 		else{
-			// dodajemo sumi zadnju cifru broja
-			sum += n % 10;
-			// ponovno pozivanje metode
-			return sum + sumDigits(n / 10);
+			// add the last digits from right to sum
+			sum += number % 10;
+			// call the method again with number excluding the last digit
+			return sum + sumDigits(number / 10);
 		}
 	}
 
