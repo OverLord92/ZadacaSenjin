@@ -3,9 +3,7 @@ package zadaci_03_08_2015;
 import java.util.Scanner;
 
 /**
- * Napišite program koji pita korisnika da unese cijeli broj i ispiše njegov
- * ekvivalent u binarnom kodu. Za ovaj program NE smijemo koristiti
- * Integer.toBinaryString(int) metodu.
+ * Write a program which asks the user to enter an integer and print its binary notation.
  */
 
 public class Zadatak4 {
@@ -13,44 +11,35 @@ public class Zadatak4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		String result = "";
-
-		System.out.print("\n  Unesite cijeli broj: ");
-		int broj = input.nextInt();
-
-		// integer kojem dodjeljujemo vrijednost unesenog broja
-		// koristi se za racunanje duzine binarnog broja
-		// da bi uneseni broj ostao nepromjenjen
-		int number = broj;
-
-		// najveci stepen na 2 manji od unesenog broja
-		int najveciStepen = 0;
-
-		// odredjujemo najveci stepen odnosno duzinu binarnog broja
-		while (number > 0) {
-			number /= 2;
-			if (number != 0) {
-				najveciStepen++;
-			}
-		}
-
-		// petlja za printanje binarnog broja
-		for (int i = najveciStepen; i >= 0; i--) {
-			// ako je 2 na i manje od preostalog broja pisemo 1
-			// i oduzimamo 2 na i od broja
-			if (Math.pow(2, i) <= broj) {
-				result += "1";
-				broj -= Math.pow(2, i);
-				// u suprotnom slučaju pišemo 0
-			} else {
-				result += "0";
-			}
-		}
+		// aks user to enter integer
+		System.out.print("\n\tEnter Integer: ");
+		int number = input.nextInt();
 		
-		// printanje rezultata
-		System.out.println("\n    Uneseni broj ispisan u binarnom obliku: " + result + ".");
+		// convert entered integer to binary string
+		String result = decimalToBinary(number);
+		
+		// print result
+		System.out.println("\n\tThe binary notation of the enterd number is: " + result + ".");
 
 		input.close();
 
 	}
+	
+	/** Convert decimal integer to binary String */
+	public static String decimalToBinary(int number){
+		
+		String result = "";
+		
+		while(number > 0){
+			if(number % 2 == 1)
+				result = 1 + result;
+			else
+				result = 0 + result;;
+			
+			number /= 2;
+		}
+		return result;
+	}
+	
+	
 }

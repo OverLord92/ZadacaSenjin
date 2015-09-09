@@ -4,10 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Napisati program koji pita korisnika da unese slovo te provjerava da li je
- * unijeti karakter samoglasnik ili suglasnik. Na primjer, ukoliko korisnik
- * unese B, program vraća da je dati karakter suglasnik. Ukoliko unese A,
- * program vraća da je dati karakter samoglasnik.
+ * Write a program which asks the user to enter a letter and checks if the
+ * letter is a vowel or a consonant.
  */
 
 public class Zadatak3 {
@@ -15,29 +13,42 @@ public class Zadatak3 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// korisnik unosi karakter
-		System.out.print("Unesite karakter: ");
-
-		// uzimamo prvo slovo unosa kao char
+		// ask user to enter letter
+		System.out.print("Enter letter: ");
 		char c = input.next().charAt(0);
-		// toUpperCase
+		
+		// print result
+		System.out.println(consonantOrVowel(c));
+
+		input.close();
+	}
+	
+	
+	/** Checks if a character is a consonant or a vowel */
+	public static String consonantOrVowel(char c){
+
+		// the method is case insensitive
 		c = Character.toUpperCase(c);
+		
+		String result = "The entered character is ";
 
-		// niz sa samoglasnicima
-		char[] samoglasnici = { 'A', 'E', 'I', 'O', 'U' };
+		// array with vowels
+		Character[] samoglasnici = { 'A', 'E', 'I', 'O', 'U' };
 
-		// ako se char nalazi u nizu samoglasnici samoglasnik je
+		// check if enters letter is a vowel
 		if (Arrays.asList(samoglasnici).contains(c)) {
-			System.out.println("Slovo koje ste unijeli je samoglasnik.");
-			// ako nije samoglasnik, da li je uneseni char suglasnik
+			result += "a vowel.";
+			
+			// if isnt vowel check if its consonant using ASCII
 		} else if ((int) (c) >= 65 && (int) (c) <= 90) {
-			System.out.println("Slovo koje ste unijeli je suglasnik.");
-			//printanje poruke ako korisnik nije unjeo slovo
+			result += "a consonant.";
+			
+			// the enters character is not a letter
 		} else {
-			System.out.println("Niste unijeli slovo. Pokusajte ponovo.");
+			result += "neither a vowel nor a consonant.";
 		}
 		
-		input.close();
+		return result;
 	}
 
 }

@@ -3,30 +3,38 @@ package zadaci_03_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati program koji pita korisnika da unese neki string te mu vraća taj
- * isti string naopako.
+ * Write a program which asks the user to enter a string, and prints the string
+ * in reverse.
  */
 
 public class Zadatak1 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+
+		// ask user to enter string
+		System.out
+				.print("Enter a string to print it i nreverse: ");
+		String str = input.nextLine();
+
+		String result = reverseString(str);
 		
-		String str, result = "";
+		// print result
+		System.out.println("\n  The result string:\n   " + result);
+
+		input.close();
+	}
+	
+	/** Returns the reversed string str */
+	public static String reverseString(String str){
 		
-		// korisnik unosi string
-		System.out.print("String koji unesete ce biti ispisan naopako.\nUnesite string: ");
-		str = input.nextLine();
+		String result = "";
 		
-		// obrtanje karaktera unesenog stringa
-		for(int i = str.length() - 1; i >= 0; i--){
-		result += str.charAt(i);	
+		for (int i = str.length() - 1; i >= 0; i--) {
+			result += str.charAt(i);
 		}
 		
-		// printanje rezultata
-		System.out.println("\n  The result string:\n   " + result);
-		
-		input.close();
+		return result;
 	}
 
 }

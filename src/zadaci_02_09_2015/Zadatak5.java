@@ -11,7 +11,7 @@ public class Zadatak5 {
 	/** Test program */
 	public static void main(String[] args) {
 
-		int[] arr = { 104, 5, 99, 1, 98, 102, 2 };
+		int[] arr = { 5, 99, 1, 98, 102, 2 };
 
 		System.out.println(max(arr));		
 

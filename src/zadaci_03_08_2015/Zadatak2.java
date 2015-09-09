@@ -3,10 +3,8 @@ package zadaci_03_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati program koji pita korisnika da unese neki string te mu vraća broj
- * uppercase karaktera u unijetom stringu. Na primjer, ukoliko korisnik unese
- * string "Dobrodošli u Dubai" program mu vraća da je broj uppercase karaktera
- * 2.
+ * Write a program which asks the user to enter a string, and then counts the
+ * upper case letters in the string.
  */
 
 public class Zadatak2 {
@@ -14,24 +12,31 @@ public class Zadatak2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// korisnik unosi string
+		// ask user to enter string
 		System.out.print("Unsite string: ");
 		String str = input.nextLine();
 
-		int countUpperCase = 0;
+		int numOfUpperCaseLetters = countUpperCaseLetters(str);
+		
+		// print result
+		System.out.println("The string has " + numOfUpperCaseLetters
+				+ " upper case characters.");
 
-		// petlja za brojanje velikih slova
+		input.close();
+	}
+	
+	/** Counts upper case letters */
+	public static int countUpperCaseLetters(String str){
+		int countUpperCaseLetters = 0;
+
+		// counting upper case letters using ASCII 
 		for (int i = 0; i < str.length(); i++) {
 			if ((int) (str.charAt(i)) >= 65 && (int) (str.charAt(i)) <= 90) {
-				countUpperCase++;
+				countUpperCaseLetters++;
 			}
 		}
-
-		// printanje retultata
-		System.out.println("The string has " + countUpperCase
-				+ " upper case characters.");
 		
-		input.close();
+		return countUpperCaseLetters;
 	}
 
 }

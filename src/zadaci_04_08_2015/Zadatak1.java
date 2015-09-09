@@ -3,26 +3,24 @@ package zadaci_04_08_2015;
 import java.util.Scanner;
 
 /**
- * Napisati program koji prima ASCII kod (cijeli broj između 0 i 127) te
- * ispisuje koji je to karakter. Na primjer, ukoliko korisnik unese 69 kao ASCII
- * kod, program mu ispisuje da je karakter sa tim brojem karakter E.
+ * Write a program which takes ASCII code of a character and prints the
+ * corresponding character.
  */
 
 public class Zadatak1 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
-		// korisnik unosi broj
-		System.out.print("\n  Unesite broj između 0 i 127: ");
+
+		// user enters ASCII code
+		System.out.print("\nEnter  ASCII code: ");
 		int numChar = input.nextInt();
-		
-		// printanje rezultata
-		System.out.print("  Odgovarajuci ASCII karakter je: ");
-		System.out.println((char)(numChar));
-		
+
+		// print result
+		System.out.println("The corresponding character is: " + (char) (numChar));
+
 		input.close();
-		
+
 	}
 
 }

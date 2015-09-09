@@ -1,26 +1,31 @@
 package zadaci_03_08_2015;
 
 /**
- * Pretpostavimo da školarina za godinu dana na fakultetu košta 10.000 i da se
- * povećava za 5% svake godine. Godinu dana od danas, školarina će iznositi
- * 10.500. Napisati program koji izračunava koliko će školarina za godinu dana
- * iznositi kroz 10 godina.
+ * The anual tuition fee is 10.000 and increases every year by 5%. How much will
+ * the tuition fee be in 10 years.
  */
 
 public class Zadatak5 {
 
 	public static void main(String[] args) {
 
-		double skolarina = 10_000;
+		double anualTuitionFee = 10_000;
+		double tuitionFeeIncrease = 1.05;
 
-		double porastSkolarine = 0.05;
-
-		// printanje rezultata
-		for (int i = 1; i <= 10; i++) {
-			skolarina *= (1 + porastSkolarine);
-			System.out.printf("Poslije %2d " + (i < 5 ? "godine" : "godina")
-					+ " skolarina ce iznosti %.2f.\n", i, skolarina);
+		// print result
+		for (int year = 1; year <= 10; year++) {
+			
+			anualTuitionFee *= tuitionFeeIncrease;
+			printPriceAfterYears(year, anualTuitionFee);
 		}
+
+	}
+
+	/** Prints the price after certain years */
+	public static void printPriceAfterYears(int year, double anualTuitionFee) {
+
+		System.out.printf("After %2d " + (year == 1 ? "year" : "years")
+				+ " the tuition fee wil be %.2f.\n", year, anualTuitionFee);
 
 	}
 
