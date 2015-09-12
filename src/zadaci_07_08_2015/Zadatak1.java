@@ -9,17 +9,18 @@ package zadaci_07_08_2015;
 public class Zadatak1 {
 
 	public static void main(String[] args) {
-		// niz u u kojem brojimo ponavljanja brojeva
+		
+		// array which counts the occurrences of the numbers 0-9
 		int[] countNumbers = new int[10];
 
-		// generisanje brojeva
+		// generate 100 random numbers from 0-9
 		for(int i = 0; i < 100; i++){
 			countNumbers[(int)(Math.random()*10)]++;
 		}
 		
-		// printanje rezultata
+		// print result
 		for(int i = 0; i < 10; i++){
-		System.out.println("Broj " + i + " je se pojavio " + countNumbers[i] + " puta.");
+		System.out.println("Number " + i + " has occurred " + countNumbers[i] + " times.");
 		}
 	}
 

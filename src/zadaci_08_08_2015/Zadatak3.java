@@ -10,57 +10,86 @@ package zadaci_08_08_2015;
 public class Zadatak3 {
 
 	public static void main(String[] args) {
-		int[][] matrix = new int[4][4];
+		
+		// generate a random matrix
+		int[][] matrix = generateRandomMatrix(4, 4);
 
-		// generisanje i printanje matrice 4 x 4 sa vrijednostima 0 i 1
-		for (int i = 0; i < matrix.length; i++) {
-			for (int j = 0; j < matrix[0].length; j++) {
-				matrix[i][j] = (int) (Math.random() * 2);
-				System.out.print(matrix[i][j]);
-			}
-			System.out.println();
-		}
-
-		// racunanje reda sa najvise jedinica
-		int count;
-		int countMax = 0;
-		int rowMax = 0;
-		for (int i = 0; i < matrix.length; i++) {
-			count = 0;
-			for (int j = 0; j < matrix[0].length; j++) {
-				if(matrix[i][j] == 1)
-					count++;
-			}
-
-			if (count > countMax){
-				countMax = count;
-				rowMax = i;
-			}
-		}
-		// printanje rezultata
+		// calculate row with most 1s
+		int rowMax = biggestRow(matrix);
+		
+		// calculate column with most 1s
+		int columnMax = biggestColumn(matrix);
+		
+		// print result
 		System.out.println("The largest row index: " + rowMax);
-		
-		
-		// racunanje colone sa najvise jedinica
-		countMax = 0;
-		int columnMax = 0;
-		for (int j = 0; j < matrix[0].length; j++) {
-			count = 0;
-			for (int i = 0; i < matrix.length; i++) {
-				if(matrix[i][j] == 1)
-					count++;
-			}
-			
-
-			if (count > countMax){
-				countMax = count;
-				columnMax = j;
-			}
-		}
-		// printanje rezultata
 		System.out.println("The largest column index: "  + columnMax);
 
 		
+	}
+	
+	/** Generates a matrix randomly populated with 0s and 1s */
+	public static int[][] generateRandomMatrix(int rowNumber, int columnNumber){
+		
+		int[][] randomMatrix = new int[rowNumber][columnNumber];
+		for (int rowIndex = 0; rowIndex < rowNumber; rowIndex++) {
+			for (int columnIndex = 0; columnIndex < columnNumber; columnIndex++) {
+				randomMatrix[rowIndex][columnIndex] = (int) (Math.random() * 2);
+				System.out.print(randomMatrix[rowIndex][columnIndex]);
+			}
+			System.out.println();
+		}
+		
+		return randomMatrix;
+
+	}
+	
+	/** Calculate biggest row */
+	public static int biggestRow(int[][] matrix){
+		
+		int rowSum;
+		int maxRowSum = 0;
+		
+		int maxRowIndex= 0;
+		
+		// calculate biggest row based on the sum of elements in every row
+		for (int rowIndex = 0; rowIndex < matrix.length; rowIndex++) {
+			
+			rowSum = 0;
+			for (int columnIndex = 0; columnIndex < matrix[0].length; columnIndex++) {
+				rowSum += matrix[rowIndex][columnIndex];
+			}
+
+			if (rowSum > maxRowSum){
+				maxRowSum = rowSum;
+				maxRowIndex = rowIndex;
+			}
+		}
+		
+		return maxRowIndex;
+	}
+	
+	/** Calculate biggest column */
+	public static int biggestColumn(int[][] matrix){
+		
+		int columnSum;
+		int maxSum = 0;
+		int maxColumnIndex= 0;
+		
+		// calculate column with most 1s based on the sum of the column
+		for (int columnIndex = 0; columnIndex < matrix[0].length; columnIndex++) {
+			
+			columnSum = 0;
+			for (int rowIndex = 0; rowIndex < matrix.length; rowIndex++) {
+				columnSum += matrix[rowIndex][columnIndex];
+			}
+
+			if (columnSum > maxSum){
+				maxSum = columnSum;
+				maxColumnIndex = columnIndex;
+			}
+		}
+		
+		return maxColumnIndex;
 	}
 
 }

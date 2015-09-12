@@ -16,53 +16,45 @@ public class Zadatak5 {
 
 	public static void main(String[] args) {
 
-		int[][] matrix = new int[6][6];
+		int[][] matrix = Zadatak3.generateRandomMatrix(6, 6);
 
-		// generisanje i printanje 6 x 6 matrice
-		for (int i = 0; i < matrix.length; i++) {
-			for (int j = 0; j < matrix[0].length; j++) {
-				matrix[i][j] = (int) (Math.random() * 2);
-				System.out.print(matrix[i][j] + " ");
-			}
-			System.out.println();
-		}
+		boolean matrixIsEven = true;
 
-		boolean isEven = true;
+		int counter;
 
-		// brojac za jedinice
-		int count;
-
-		// provjeravamo da li svi redovi imaju paran broj jedinica
-		for (int i = 0; i < matrix.length; i++) {
-			count = 0;
-			for (int j = 0; j < matrix[0].length; j++) {
-				if (matrix[i][j] == 1)
-					count++;
+		// check if all rows have even numbers of 1s
+		for (int rowIndex = 0; rowIndex < matrix.length; rowIndex++) {
+			
+			counter = 0;
+			for (int columnIndex = 0; columnIndex < matrix[0].length; columnIndex++) {
+				if (matrix[rowIndex][columnIndex] == 1)
+					counter++;
 			}
 
-			if (count % 2 != 0) {
-				isEven = false;
+			if (counter % 2 != 0) {
+				matrixIsEven = false;
 				break;
 			}
 		}
 
-		// provjeravamo da li sve kolone imaju paran broj jedinica
+		// check if all columns have even numbers of 1s
 		for (int j = 0; j < matrix[0].length; j++) {
-			count = 0;
+			
+			counter = 0;
 			for (int i = 0; i < matrix.length; i++) {
 				if (matrix[i][j] == 1)
-					count++;
+					counter++;
 			}
 
-			if (count % 2 != 0) {
-				isEven = false;
+			if (counter % 2 != 0) {
+				matrixIsEven = false;
 				break;
 			}
 		}
 
-		// printanje rezultata
+		// print result
 		System.out
-				.print(isEven ? "\nThe matrice has" : "\nThe matrice has NOT");
+				.print(matrixIsEven ? "\nThe matrice has" : "\nThe matrice has NOT");
 		System.out.println(" even numbers in rows in columns.");
 
 	}

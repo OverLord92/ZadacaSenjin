@@ -3,8 +3,8 @@ package zadaci_08_08_2015;
 import java.util.Scanner;
 
 /**
- * Write a method to multiply two matrices. The header of the method is:
- * public static double[][] multiplyMatrix(double[][] a, double[][] b)
+ * Write a method to multiply two matrices. The header of the method is: public
+ * static double[][] multiplyMatrix(double[][] a, double[][] b)
  */
 
 public class Zadatak2 {
@@ -29,72 +29,82 @@ public class Zadatak2 {
 
 	}
 
-	/** Metoda za unos matrice 3 x 3 */
+	/** Input method for a 3 x 3 matrix */
 	public static double[][] enterMatrix(Scanner input) {
 		double[][] matrix = new double[3][3];
 
-		for (int i = 0; i < matrix.length; i++) {
-			for (int j = 0; j < matrix[0].length; j++) {
-				matrix[i][j] = input.nextDouble();
+		for (int rowIndex = 0; rowIndex < matrix.length; rowIndex++) {
+			for (int columnIndex = 0; columnIndex < matrix[0].length; columnIndex++) {
+				matrix[rowIndex][columnIndex] = input.nextDouble();
 			}
 		}
 
 		return matrix;
 	}
 
-	/** Metoda koja mnozi dvije 3 x 3 matrice */
-	public static double[][] multiplyMatrix(double[][] a, double[][] b) {
+	/** Multiply two 3 x 3 matrices */
+	public static double[][] multiplyMatrix(double[][] firstOperand,
+			double[][] secondOperand) {
 
-		// broj kolona prve matrice mora biti jednak broju redova druge kolone
-		if (a.length != b[0].length) {
+		// the number of columns in the first matrix must equal the number if
+		// rows in the second matrix
+		if (firstOperand.length != secondOperand[0].length) {
+
+			// if this is not the case print error message
 			System.out.println("Matrice se ne mogu pomnoziti.");
 			return null;
+
 		} else {
 
-			double[][] c = new double[3][3];
-			for (int i = 0; i < a.length; i++) {
-				for (int j = 0; j < b[0].length; j++) {
-					c[i][j] = (a[i][0] * b[0][j]) + (a[i][1] * b[1][j])
-							+ (a[i][2] * b[2][j]);
+			// process of multiplication
+			double[][] resultMatrix = new double[3][3];
+			for (int rowIndex = 0; rowIndex < firstOperand.length; rowIndex++) {
+				for (int columnIndex = 0; columnIndex < secondOperand[0].length; columnIndex++) {
+					resultMatrix[rowIndex][columnIndex] = (firstOperand[rowIndex][0] * secondOperand[0][columnIndex])
+							+ (firstOperand[rowIndex][1] * secondOperand[1][columnIndex])
+							+ (firstOperand[rowIndex][2] * secondOperand[2][columnIndex]);
 
 				}
 			}
 
-			return c;
+			return resultMatrix;
 		}
 
 	}
 
-	/** Metoda za vizualizaciju operacije dvaju matrica */
-	public static void printMaticesOperation(double[][] a, double[][] b,
-			double[][] c, char operation) {
+	/** Visualize Multiplication */
+	public static void printMaticesOperation(double[][] firstOperand,
+			double[][] secondOperand, double[][] resultMatrix, char operator) {
 
 		System.out.print("\n");
-		for (int i = 0; i < a.length; i++) {
-			// printanje prve matrice
-			for (int j = 0; j < a[0].length; j++) {
-				System.out.printf("%4.1f  ", a[i][j]);
+		for (int rowIndex = 0; rowIndex < firstOperand.length; rowIndex++) {
+
+			// print rows of the first matrix
+			for (int j = 0; j < firstOperand[0].length; j++) {
+				System.out.printf("%4.1f  ", firstOperand[rowIndex][j]);
 
 			}
 
-			if (i == a.length / 2)
-				System.out.print("   " + operation + "   ");
+			// print operator in the middle row
+			if (rowIndex == firstOperand.length / 2)
+				System.out.print("   " + operator + "   ");
 			else
 				System.out.print("       ");
 
-			// printanje druge matrice
-			for (int j = 0; j < b[0].length; j++) {
-				System.out.printf("%4.1f  ", b[i][j]);
+			// print rows of the second matrix
+			for (int j = 0; j < secondOperand[0].length; j++) {
+				System.out.printf("%4.1f  ", secondOperand[rowIndex][j]);
 			}
 
-			if (i == a.length / 2)
+			// print the equals sign
+			if (rowIndex == firstOperand.length / 2)
 				System.out.print("   =   ");
 			else
 				System.out.print("       ");
 
-			// printanje zbira matrica
-			for (int j = 0; j < c[0].length; j++) {
-				System.out.printf("%4.1f  ", c[i][j]);
+			// print the rows of the result matrix
+			for (int j = 0; j < resultMatrix[0].length; j++) {
+				System.out.printf("%4.1f  ", resultMatrix[rowIndex][j]);
 			}
 
 			System.out.println();

@@ -1,5 +1,6 @@
 package zadaci_07_08_2015;
 
+import java.util.Arrays;
 
 /**
  * (Random number chooser) Write a method that returns a random number between 1
@@ -11,43 +12,29 @@ public class Zadatak2 {
 
 	public static void main(String[] args) {
 
-		// printanje proizvoljnog broja koji iskljucuje proslijedjene brojeve
-		int randomNumber = getRandom(7, 17, 27, 37, 47);
+		// print a random number between 1 and 54 excluding forwarded
+		// numbers
+		int randomNumber = getRandomNumber(7, 17, 18, 19, 20, 21, 27, 37, 47);
 		System.out.println(randomNumber);
 
 	}
 
 	/**
-	 * Metoda koja vraca proizvoljan broj iskljucujuci brojeve koji su
-	 * proslijedjeni kao argumenti
+	 * Returns a random integer between 1 and 54 excluding forwarded numbers
 	 */
-	public static int getRandom(int... numbers) {
+	public static int getRandomNumber(Integer... numbers) {
 
-		int result;
+		int randomNumber;
 
 		do {
-			result = 1 + (int) (Math.random() * 54);
 
-			// broju result dodjeljujemo cnovu proizvoljnu vrijednost sve dok se
-			// ona ne nalazi u nizu brojeva koji su prosliedjeni metodi
-		} while (isPresentInArray(numbers, result));
+			// kepp generating new radnom number until the generated number is
+			// not contained in the array numbers
+			randomNumber = 1 + (int) (Math.random() * 54);
 
-		return result;
+		} while (Arrays.asList(numbers).contains(randomNumber));
+
+		return randomNumber;
 	}
-
-	/** Metoda koja provjerava da li se broj nalazi u nizu */
-	public static boolean isPresentInArray(int[] numbers, int num) {
-		boolean isPresent = false;
-
-		for (int i : numbers) {
-			if (i == num)
-				isPresent = true;
-		}
-
-		return isPresent;
-	}
-
-	// Nisam mogao koristiti Arrays.asList(array).contains(number) zato sto taj
-	// nacin ne radi sa primitivnim varijablama pa sam napisao kastm metodu
 
 }

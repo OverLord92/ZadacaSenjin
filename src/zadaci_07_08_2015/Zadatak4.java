@@ -8,25 +8,27 @@ package zadaci_07_08_2015;
 
 public class Zadatak4 {
 
+	/** Test program */
 	public static void main(String[] args) {
 		
-		// kratki test pogram
 		double[][] m = {{99, 13}, {34, 54}};
 		
+		// print result
 		System.out.println(sumColumn(m,0));
 
 	}
 
-	/** Metoda koja vraca zbir brojeva odredjene kolone matrice */
+	/** Sums elements of forwarded column */
 	public static double sumColumn(double[][] m, int columnIndex) {
 
-		double sum = 0;
+		double columnSum = 0;
 		
-		for(int i = 0; i < m.length; i++){
-			sum += m[i][columnIndex];
+		// sum elements of the column
+		for(int rowIndex = 0; rowIndex < m.length; rowIndex++){
+			columnSum += m[rowIndex][columnIndex];
 		}
 		
-		return sum;
+		return columnSum;
 	}
 
 }

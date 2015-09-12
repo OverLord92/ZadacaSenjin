@@ -7,71 +7,83 @@ package zadaci_07_08_2015;
 
 public class Zadatak5 {
 
+	/** Test program */
 	public static void main(String[] args) {
 
-		// kratki test program
-		// prva matrica sabirak
+		// first matrix operand
 		double[][] a = { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 } };
-		// druga matrica sabirak
-		double[][] b = { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 } };
-		// matrica u koju smjestamo rezultat sabiranja
-		double[][] c = addMatrix(a, b);
 
-		// printanje sabiranja matrica
+		// second matrix operand
+		double[][] b = { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 } };
+
+		// a matrix for the result
+		double[][] c = addMatrices(a, b);
+
+		// print result
 		printMaticesOperation(a, b, c, '+');
 
 	}
 
-	/** Metoda koja vraca zbir dvaju matrica */ 
-	public static double[][] addMatrix(double[][] a, double[][] b) {
+	/** Sums two matrices and returns result */
+	public static double[][] addMatrices(double[][] a, double[][] b) {
 
-		double[][] c = new double[a.length][a[0].length];
+		// matrix in which place the result
+		double[][] resultMatrix = new double[a.length][a[0].length];
 
-		// provjeravamo da li su matrice istih dimenzija
+		// check if the matrices are the same size
 		if (a.length != b.length || a[0].length != b[0].length) {
+
+			// if the sizes are not the same return null
 			System.out.println("The matrices must have the same size.");
 			return null;
 		}
 
-		// proces sabiranja matrica
-		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j < a[0].length; j++) {
-				c[i][j] = a[i][j] + b[i][j];
+		// sum matrices
+		for (int rowIndex = 0; rowIndex < a.length; rowIndex++) {
+			for (int columnIndex = 0; columnIndex < a[0].length; columnIndex++) {
+				resultMatrix[rowIndex][columnIndex] = a[rowIndex][columnIndex]
+						+ b[rowIndex][columnIndex];
 			}
 		}
 
-		return c;
+		return resultMatrix;
 	}
 
-	/** Metoda za vizualizaciju operacije dvaju matrica */
-	public static void printMaticesOperation(double[][] a, double[][] b, double[][] c, char operation) {
-		for (int i = 0; i < a.length; i++) {
-			// printanje prve matrice
-			for (int j = 0; j < a[0].length; j++) {
-				System.out.printf("%4.2f  ", a[i][j]);
+	/** Visualize the process of the addition  */
+	public static void printMaticesOperation(double[][] firstOperand, double[][] secondOperand,
+			double[][] resultMatrix, char operator) {
+		
+		for (int rowIndex = 0; rowIndex < firstOperand.length; rowIndex++) {
+			
+			// print rows of the first matrix
+			for (int columnIndex = 0; columnIndex < firstOperand[0].length; columnIndex++) {
+				System.out.printf("%4.2f  ", firstOperand[rowIndex][columnIndex]);
 
 			}
 
-			if (i == a.length / 2)
-				System.out.print("   " + operation + "   ");
+			// print the operator in the middle row
+			if (rowIndex == firstOperand.length / 2)
+				System.out.print("   " + operator + "   ");
 			else
 				System.out.print("       ");
 
-			// printanje druge matrice
-			for (int j = 0; j < b[0].length; j++) {
-				System.out.printf("%4.2f  ", b[i][j]);
+			// print rows of the second matrix
+			for (int j = 0; j < secondOperand[0].length; j++) {
+				System.out.printf("%4.2f  ", secondOperand[rowIndex][j]);
 			}
+
 			
-			if (i == a.length / 2)
+			// print equal sign in the middle row
+			if (rowIndex == firstOperand.length / 2)
 				System.out.print("   =   ");
 			else
 				System.out.print("       ");
-			
-			// printanje zbira matrica
-			for (int j = 0; j < c[0].length; j++) {
-				System.out.printf("%4.2f  ", c[i][j]);
+
+			// print result matrix
+			for (int j = 0; j < resultMatrix[0].length; j++) {
+				System.out.printf("%4.2f  ", resultMatrix[rowIndex][j]);
 			}
-			
+
 			System.out.println();
 		}
 	}

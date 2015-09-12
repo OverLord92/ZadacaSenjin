@@ -15,11 +15,11 @@ public class Zadatak1 {
 
 	public static void main(String[] args) {
 
-		// ArrayList u koji smjestamo uposlene
+		// array list which holds the employee objects  
 		ArrayList<Employee> employees = new ArrayList<>();
 
-		// matrica sa satima uposlenih
-		int[][] workHours = { 
+		// matrix with working hours
+		double[][] workHours = { 
 				{ 1, 2, 3, 4, 5, 6, 7 }, 
 				{ 1, 2, 3, 4, 5, 6, 5 },
 				{ 1, 2, 3, 4, 5, 6, 4 },
@@ -30,51 +30,69 @@ public class Zadatak1 {
 				{ 1, 2, 3, 4, 5, 6, 1 }
 		};
 
-		int sum;
+		double hoursSum;
 
-		// sabiramo sate u svakoj koloni
-		for (int i = 0; i < workHours.length; i++) {
-			sum = 0;
-			for (int j = 0; j < workHours[0].length; j++) {
-				sum += workHours[i][j];
-			}
-			// i dodjeljujemo ju Employee objektu
-			employees.add(new Employee("Employee" + i, sum));
+		// sum hours in a column
+		for (int rowIndex = 0; rowIndex < workHours.length; rowIndex++) {
+			
+			hoursSum = sumRow(workHours, rowIndex);
+		
+			// and create an employee object with the sum
+			employees.add(new Employee("Employee" + rowIndex, hoursSum));
 		}
 
-		// sortiramo listu u rastucem nizu
+		// sort in ascending order
 		Collections.sort(employees);
-		// obrtanje liste kako bi se dobio opadajuci niz
+		// reverse the list to get descending order
 		Collections.reverse(employees);
 
-		// printanje rezultata
-		
-		System.out.println("\tRadnici printani po broju radnih sati u opadajucem nizu:\n");
+		// print result
+		System.out.println("\tEmloyees sorted by working hours:\n");
 		for (Employee e : employees) {
-			System.out.println("\t" + e.name + "\t" + e.hours);
+			System.out.println(e);
 		}
 
 	}
+	
+	/** Sums elements of forwarded row */
+	public static double sumRow(double[][] m, int rowIndex) {
+
+		double rowSum = 0;
+		
+		// sum elements of the row
+		for(int columnIndex = 0; columnIndex < m[0].length; columnIndex++){
+			rowSum += m[rowIndex][columnIndex];
+		}
+		
+		return rowSum;
+	}
 }
 
-// klasa za employee objekat
+/** Class which represents employee */
 class Employee implements Comparable<Employee> {
+	
 	public String name;
-	public int hours;
+	public double hours;
 
-	// konstruktor
-	Employee(String name, int hours) {
+	// constructor
+	Employee(String name, double hours) {
 		this.name = name;
 		this.hours = hours;
 	}
 
-	// overidovana metoda it comparable interface-a
+	// implementation of the Comparable interface
 	@Override
 	public int compareTo(Employee e) {
+		
 		if (this.hours > e.hours)
 			return 1;
 		else
 			return -1;
+	}
+	
+	@Override
+	public String toString(){
+		return "\t" + name + "\t" + hours;
 	}
 
 }
